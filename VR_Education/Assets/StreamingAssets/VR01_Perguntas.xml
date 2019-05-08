@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VR01_Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <toAsk number="1" value="Pergunta aqui?" about="coment goes here" correctAnswer="1">
+    <answer number="0">Resposta aqui</answer>
+    <answer number="1">Outa resposta</answer>
+    <answer number="2">Mais uma</answer>
+    <answer number="3">Ultima Alternativa</answer>
+  </toAsk>
+  <toAsk number="2" value="Pergunta aqui?" about="coment goes here" correctAnswer="1">
+    <answer number="0">Resposta aqui</answer>
+    <answer number="1">Outa resposta</answer>
+    <answer number="2">Mais uma</answer>
+    <answer number="3">Ultima Alternativa</answer>
+  </toAsk>
+</VR01_Question>
