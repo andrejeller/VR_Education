@@ -9,34 +9,32 @@ using System.Xml.Serialization;
 [System.Serializable]
 public class VR01_Question {
 
-    [XmlElement("question")]
-    public List<VR01_Question> Questions = new List<VR01_Question>();
+    [XmlElement("toAsk")]
+    public List<VR01_QuestionToAsk> Questions = new List<VR01_QuestionToAsk>();
 
 }
 
 [System.Serializable]
 public class VR01_QuestionToAsk {
 
-    public bool answered; //Para nao repetir
+    //public bool answered; //Para nao repetir
 
-    [XmlAttribute("number")]
-    public int QuestionID;
-    [XmlAttribute("value")]
+    //[XmlAttribute("number")]
+    //public int QuestionID;
+    [XmlAttribute("question")]
     public string myQuestion;
     [XmlAttribute("about")]
     public string about;
     [XmlAttribute("correctAnswer")]
     public int correctAnswer;
-    
-    [XmlElement("answer")]
-    public List<VR01_QuestionAnswer> Answers = new List<VR01_QuestionAnswer>();
+
+	[XmlElement("answer")]
+	public List<VR01_QuestionAnswer> Answers = new List<VR01_QuestionAnswer>();
+
 }
 
 [System.Serializable]
 public class VR01_QuestionAnswer {
-    [XmlAttribute("correctAnswer")]
-    public int answerID;
-
     [XmlText]
     public string theAnswerText;
 }

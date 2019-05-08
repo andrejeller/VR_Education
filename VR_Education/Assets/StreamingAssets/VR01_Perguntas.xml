@@ -1,15 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <VR01_Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <toAsk number="1" value="Pergunta aqui?" about="coment goes here" correctAnswer="1">
-    <answer number="0">Resposta aqui</answer>
-    <answer number="1">Outa resposta</answer>
-    <answer number="2">Mais uma</answer>
-    <answer number="3">Ultima Alternativa</answer>
+  
+  <toAsk question="De quem é a famosa frase “Penso, logo existo”?" about="coment goes here" correctAnswer="0">
+    <answer>Descartes</answer>
+    <answer>Galileu Galilei</answer>
+    <answer>Sócrates</answer>
+    <answer>Fracis Bacon</answer>
   </toAsk>
-  <toAsk number="2" value="Pergunta aqui?" about="coment goes here" correctAnswer="1">
-    <answer number="0">Resposta aqui</answer>
-    <answer number="1">Outa resposta</answer>
-    <answer number="2">Mais uma</answer>
-    <answer number="3">Ultima Alternativa</answer>
+
+  <toAsk question="Quantas casas decimais tem o número pi?" about="coment goes here" correctAnswer="2">
+    <answer>Duas</answer>
+    <answer>Centenas</answer>
+    <answer>Trilhares</answer>
+    <answer>Milhares</answer>
   </toAsk>
+
+  <toAsk question="Qual o número mínimo de jogadores numa partida de futebol?" about="coment goes here" correctAnswer="3">
+    <answer>8</answer>
+    <answer>10</answer>
+    <answer>9</answer>
+    <answer>7</answer>
+  </toAsk>
+
+  <toAsk question="?" about="coment" correctAnswer="3">
+    <answer>0</answer>
+    <answer>1</answer>
+    <answer>2</answer>
+    <answer>3</answer>
+  </toAsk>
+  
 </VR01_Question>
