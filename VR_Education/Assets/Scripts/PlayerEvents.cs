@@ -8,6 +8,10 @@ public class PlayerEvents:MonoBehaviour {
 	#region Events
 	public static UnityAction OnTouchPadUp = null;
 	public static UnityAction OnTouchPadDown = null;
+
+	public static UnityAction OnriggerPressed = null;
+	public static UnityAction OnriggerRelesase = null;
+
 	public static UnityAction<OVRInput.Controller, GameObject> OnControulerSource = null;
 	#endregion
 
@@ -75,15 +79,24 @@ public class PlayerEvents:MonoBehaviour {
 		_InputSource = UpdateSource(OVRInput.GetActiveController(), _InputSource);
 	}
 	private void Input() {
+		if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger)) {
+			if (OnriggerPressed != null)
+				OnriggerPressed();
+		}
+		if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger)) {
+			if (OnriggerRelesase != null)
+				OnriggerRelesase();
+		}
+
 		//Touchpad down
 		if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad)) {
-			if (OnTouchPadDown == null)
+			if (OnTouchPadDown != null)
 				OnTouchPadDown();
 		}
 
 		//Touchpad up
 		if (OVRInput.GetUp(OVRInput.Button.PrimaryTouchpad)) {
-			if (OnTouchPadUp == null)
+			if (OnTouchPadUp != null)
 				OnTouchPadUp();
 		}
 	}

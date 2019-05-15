@@ -1,18 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Pointer:MonoBehaviour {
 
-	public float _distance = 10.0f;
 	public LineRenderer _lineRenderer = null;
 	public LayerMask _everythingMask = 0;
 	public LayerMask _interactableMask = 0;
+	public UnityAction<Vector3, GameObject> OnPointUpdate = null;
 
 	private Transform _currentOrigin = null;
+	private GameObject _currentObject = null;
+	private GameObject _lastObject = null;
+	private float _distance = 40.0f;
 
 	private void Awake() {
 		PlayerEvents.OnControulerSource += UpdateOringin;
+		PlayerEvents.OnriggerPressed += ProcessTouchpadDown;
 		PlayerEvents.OnTouchPadDown += ProcessTouchpadDown;
 	}
 
@@ -22,14 +27,32 @@ public class Pointer:MonoBehaviour {
 
 	private void OnDestroy() {
 		PlayerEvents.OnControulerSource -= UpdateOringin;
+		PlayerEvents.OnriggerPressed -= ProcessTouchpadDown;
 		PlayerEvents.OnTouchPadDown -= ProcessTouchpadDown;
 	}
 
 	private void Update() {
 		Vector3 hitPoint = UpdateLine();
 
+		_currentObject = UpdatePointerStatus();
+
+		if (_currentObject != null) {
+
+			_lastObject = _currentObject;
+			_currentObject.Send<IInteractable>(_ => _.OnPointerOver());
+		}
+		else {
+
+			_lastObject.Send<IInteractable>(_ => _.OnPointerExit());
+			_lastObject = null;
+		}
+
+		if (OnPointUpdate != null)
+			OnPointUpdate(hitPoint, _currentObject);
 	}
 
+
+	#region LineThings
 	private Vector3 UpdateLine() {
 		//Create ray
 		RaycastHit hit = CreatedRaycats(_everythingMask);
@@ -47,6 +70,7 @@ public class Pointer:MonoBehaviour {
 
 
 		return endPosition;
+		//return Vector3.zero;
 	}
 
 	private void UpdateOringin(OVRInput.Controller controller, GameObject controllerObject) {
@@ -59,9 +83,20 @@ public class Pointer:MonoBehaviour {
 
 	}
 
+	private GameObject UpdatePointerStatus() {
+		//create ray
+		RaycastHit hit = CreatedRaycats(_interactableMask);
+
+		//check hit
+		if (hit.collider)
+			return hit.collider.gameObject;
+
+		//return
+		return null;
+	}
+
 	private RaycastHit CreatedRaycats(int layer) {
 		RaycastHit hit;
-
 		Ray ray = new Ray(_currentOrigin.position, _currentOrigin.forward);
 		Physics.Raycast(ray, out hit, _distance, layer);
 
@@ -77,13 +112,16 @@ public class Pointer:MonoBehaviour {
 		_lineRenderer.endColor = endColor;
 
 	}
+	#endregion
 
-	private void ProcessTouchpadDown() {
-
+	private void OnTriggerPress() {
+		if (!_currentObject) return;
+		_currentObject.Send<IInteractable>(_ => _.OnPress());
 	}
 
-
-
-
+	private void OnriggerRelesase() {
+		if (!_currentObject) return;
+		_currentObject.Send<IInteractable>(_ => _.OnRelease());
+	}
 
 }
