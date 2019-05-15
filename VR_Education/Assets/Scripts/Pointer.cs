@@ -17,8 +17,9 @@ public class Pointer:MonoBehaviour {
 
 	private void Awake() {
 		PlayerEvents.OnControulerSource += UpdateOringin;
-		PlayerEvents.OnriggerPressed += ProcessTouchpadDown;
-		PlayerEvents.OnTouchPadDown += ProcessTouchpadDown;
+		PlayerEvents.OnTriggerPressed += OnTriggerPress;
+		PlayerEvents.OnTriggerPressed += OnriggerRelesase;
+		//PlayerEvents.OnTouchPadDown += ProcessTouchpadDown;
 	}
 
 	private void Start() {
@@ -27,8 +28,8 @@ public class Pointer:MonoBehaviour {
 
 	private void OnDestroy() {
 		PlayerEvents.OnControulerSource -= UpdateOringin;
-		PlayerEvents.OnriggerPressed -= ProcessTouchpadDown;
-		PlayerEvents.OnTouchPadDown -= ProcessTouchpadDown;
+		PlayerEvents.OnTriggerPressed -= OnTriggerPress;
+		//PlayerEvents.OnTouchPadDown -= ProcessTouchpadDown;
 	}
 
 	private void Update() {
