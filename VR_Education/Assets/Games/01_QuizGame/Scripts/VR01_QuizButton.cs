@@ -32,6 +32,7 @@ public class VR01_QuizButton: MonoBehaviour {
         buttonCircle.transform.DOLocalMoveY(0.09f, 0.3f, false).OnComplete(() => {
             buttonCircle.transform.DOLocalMoveY(0.16f, 0.6f, false).OnComplete(() => canBePressed = true);
         });
+
     }
 
 	private void OnTriggerEnter(Collider other) {
