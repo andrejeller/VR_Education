@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class VR02_FlipButton : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	public void FlipTo(bool Left) {
+		if (Left) VR02_GameManager.instance.RotateActiveBuilding('l');
+		else      VR02_GameManager.instance.RotateActiveBuilding('r');
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

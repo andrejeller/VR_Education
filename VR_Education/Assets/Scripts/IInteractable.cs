@@ -8,4 +8,6 @@ public interface IInteractable : IEventSystemHandler {
 	IEnumerable OnPress();
 	IEnumerable OnRelease();
 
+	//void Ray(float position);
+
 }

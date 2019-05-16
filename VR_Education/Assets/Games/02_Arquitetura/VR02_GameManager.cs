@@ -8,12 +8,12 @@ public class VR02_GameManager:MonoBehaviour {
 	public static VR02_GameManager instance;
 
 	public GameObject[] buildings = new GameObject[4];
-	public int[] buildingsRotations = { 0, 0, 0, 0};
+	public int[] buildingsRotations = { 0, 0, 0, 0 };
 	private Vector3[] rotations = { new Vector3(0, 0, 0), new Vector3(0, 90, 0), new Vector3(0, 180, 0), new Vector3(0, 360, 0) };
 	private int builingsCount = 4;
 	private int ActiveBuilding = 0;
 
-	public VR02_Toggle tg;
+	public VR02_ToggleGroup tg;
 
 	private void Awake() {
 		if (instance == null) instance = this;
@@ -22,6 +22,7 @@ public class VR02_GameManager:MonoBehaviour {
 
 
 	private void Start() {
+		tg.InitializeToggls();
 		ActiveOnlyBuilding(0);
 	}
 
@@ -41,7 +42,7 @@ public class VR02_GameManager:MonoBehaviour {
 
 
 		if (Input.GetKeyDown(KeyCode.A)) {
-			tg.ActiveMyBuilding();
+			tg.ActiveOnlyToggle(0);
 			Debug.LogWarning("try to change");
 		}
 
@@ -58,18 +59,22 @@ public class VR02_GameManager:MonoBehaviour {
 			buildingsRotations[ActiveBuilding]++;
 			if (buildingsRotations[ActiveBuilding] > 3) buildingsRotations[ActiveBuilding] = 0;
 
+			//buildings[ActiveBuilding].transform.Rotate(new Vector3(0, 90, 0));
 			buildings[ActiveBuilding].transform.DORotate(rotations[buildingsRotations[ActiveBuilding]], 0.7f, RotateMode.Fast);
 		}
 		if (side == 'l') {
 			buildingsRotations[ActiveBuilding]--;
 			if (buildingsRotations[ActiveBuilding] < 0) buildingsRotations[ActiveBuilding] = 3;
 
+			//buildings[ActiveBuilding].transform.Rotate(new Vector3(0, -90, 0));
 			buildings[ActiveBuilding].transform.DORotate(rotations[buildingsRotations[ActiveBuilding]], 0.7f, RotateMode.Fast);
 		}
 	}
 
+
 	public void ActiveOnlyBuilding(int number) {
 		ActiveBuilding = number;
+		tg.ActiveOnlyToggle(number);
 
 		for (int i = 0; i < builingsCount; i++) {
 			bool visibility = false;
