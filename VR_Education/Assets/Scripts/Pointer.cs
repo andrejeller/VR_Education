@@ -13,12 +13,13 @@ public class Pointer:MonoBehaviour {
 	private Transform _currentOrigin = null;
 	private GameObject _currentObject = null;
 	private GameObject _lastObject = null;
-	private float _distance = 40.0f;
+	private float _distance = 100.0f;
 
 	private void Awake() {
 		PlayerEvents.OnControulerSource += UpdateOringin;
 		PlayerEvents.OnTriggerPressed += OnTriggerPress;
-		PlayerEvents.OnTriggerPressed += OnriggerRelesase;
+		PlayerEvents.OnTriggerPressed += OnTriggerRelesase;
+		PlayerEvents.OnTriggerHold += OnTriggerHold;
 		//PlayerEvents.OnTouchPadDown += ProcessTouchpadDown;
 	}
 
@@ -50,6 +51,11 @@ public class Pointer:MonoBehaviour {
 
 		if (OnPointUpdate != null)
 			OnPointUpdate(hitPoint, _currentObject);
+	}
+
+
+	public Transform GetOriginPosition() {
+		return _currentOrigin;
 	}
 
 
@@ -120,9 +126,14 @@ public class Pointer:MonoBehaviour {
 		_currentObject.Send<IInteractable>(_ => _.OnPress());
 	}
 
-	private void OnriggerRelesase() {
+	private void OnTriggerRelesase() {
 		if (!_currentObject) return;
 		_currentObject.Send<IInteractable>(_ => _.OnRelease());
+	}
+
+	private void OnTriggerHold() {
+		if (!_currentObject) return;
+		_currentObject.Send<IInteractable>(_ => _.OnHold());
 	}
 
 }

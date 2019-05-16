@@ -9,7 +9,7 @@ public class VR02_GameManager:MonoBehaviour {
 
 	public GameObject[] buildings = new GameObject[4];
 	public int[] buildingsRotations = { 0, 0, 0, 0 };
-	private Vector3[] rotations = { new Vector3(0, 0, 0), new Vector3(0, 90, 0), new Vector3(0, 180, 0), new Vector3(0, 360, 0) };
+	private Vector3[] rotations = { new Vector3(0, 45, 0), new Vector3(0, 135, 0), new Vector3(0, 255, 0), new Vector3(0, 315, 0) };
 	private int builingsCount = 4;
 	private int ActiveBuilding = 0;
 

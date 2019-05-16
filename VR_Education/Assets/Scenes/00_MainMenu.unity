@@ -579,7 +579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b50b25a6635dfb4f931d904f29913bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonID: 0
+  buttonID: 1
 --- !u!1001 &440898813
 Prefab:
   m_ObjectHideFlags: 0
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b50b25a6635dfb4f931d904f29913bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonID: 0
+  buttonID: 2
 --- !u!114 &1700517476
 MonoBehaviour:
   m_ObjectHideFlags: 0

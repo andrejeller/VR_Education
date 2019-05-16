@@ -21,15 +21,15 @@ public class VR00_GoToMenu:MonoBehaviour {
 
 	void Update() {
 
-		if (OVRInput.GetUp(OVRInput.Button.Back) || Input.GetKeyDown(KeyCode.Escape))
-			panel.SetActive(true);
-
+		if (OVRInput.GetUp(OVRInput.Button.Back) || Input.GetKeyDown(KeyCode.Escape)) {
+			ShowPanel();
+		}
 		if (OVRInput.Get(OVRInput.RawButton.Back) || Input.GetKey(KeyCode.Escape)) {
 			timer += Time.deltaTime;
 			slider.Angle = Regrade3();
 
 			if (timer > 3.0f)
-				SceneLoader.instance.Load(0);
+				LoadMenu();
 		}
 		if (OVRInput.GetUp(OVRInput.Button.Back) || Input.GetKeyUp(KeyCode.Escape)) {
 			timer = 0.0f;
@@ -37,6 +37,20 @@ public class VR00_GoToMenu:MonoBehaviour {
 		}
 	}
 
+	private void LoadMenu() {
+		panel.SetActive(false);
+		timer = 0;
+		SceneLoader.instance.Load(0);
+	}
+
+	private void ShowPanel() {
+		panel.SetActive(true);
+		Camera camera = Camera.main;
+		
+		panel.transform.position = (Camera.main.transform.position + (Camera.main.transform.forward * 20));
+		panel.transform.LookAt(panel.transform.position + camera.transform.rotation * Vector3.forward, camera.transform.rotation * Vector3.up);
+		//	panel.transform.LookAt(Camera.main.transform.forward);
+	}
 
 	private float Regrade3() {
 		return ((timer * 360) / 3);

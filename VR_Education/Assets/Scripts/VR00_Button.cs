@@ -30,4 +30,8 @@ public class VR00_Button : MonoBehaviour, IInteractable {
 	public IEnumerable OnRelease() {
 		throw new System.NotImplementedException();
 	}
+
+	public IEnumerable OnHold() {
+		throw new System.NotImplementedException();
+	}
 }

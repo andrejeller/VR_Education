@@ -11,6 +11,7 @@ public class PlayerEvents:MonoBehaviour {
 
 	public static UnityAction OnTriggerPressed = null;
 	public static UnityAction OnTriggerRelesase = null;
+	public static UnityAction OnTriggerHold = null;
 
 	public static UnityAction<OVRInput.Controller, GameObject> OnControulerSource = null;
 	#endregion
@@ -82,6 +83,10 @@ public class PlayerEvents:MonoBehaviour {
 		if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger)) {
 			if (OnTriggerPressed != null)
 				OnTriggerPressed();
+		}
+		if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger)) {
+			if (OnTriggerHold != null)
+				OnTriggerHold();
 		}
 		if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger)) {
 			if (OnTriggerRelesase != null)
