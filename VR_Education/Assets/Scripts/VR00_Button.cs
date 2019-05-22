@@ -7,6 +7,10 @@ public class VR00_Button : MonoBehaviour, IInteractable {
 
 	public int buttonID;
 
+	public void ClickMe() {
+		SceneLoader.instance.Load(buttonID);
+	}
+
 	public IEnumerable OnPointerOver() {
 		transform.DOScale(1.1f, 0.2f);
 		yield return null;
@@ -17,21 +21,16 @@ public class VR00_Button : MonoBehaviour, IInteractable {
 		yield return null;
 	}
 
-	public IEnumerable OnPress() {
+	public IEnumerable OnTriggerPress() {
 		transform.DORotate(Vector3.zero, 0.7f, RotateMode.FastBeyond360);
 		yield return new WaitForSeconds(0.7f);
 		ClickMe();
 	}
 
-	public void ClickMe() {
-		SceneLoader.instance.Load(buttonID);
-	}
-
-	public IEnumerable OnRelease() {
+	public IEnumerable OnTriggerRelease() {
 		throw new System.NotImplementedException();
 	}
-
-	public IEnumerable OnHold() {
+	public IEnumerable OnTriggerHold() {
 		throw new System.NotImplementedException();
 	}
 }

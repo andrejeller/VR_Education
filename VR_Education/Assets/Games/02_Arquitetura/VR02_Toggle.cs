@@ -11,7 +11,7 @@ public class VR02_Toggle:MonoBehaviour, IInteractable {
 		VR02_GameManager.instance.ActiveOnlyBuilding(myBuilding);
 	}
 
-	public IEnumerable OnPress() {
+	public IEnumerable OnTriggerPress() {
 		ActiveMyBuilding();
 		yield return null;
 	}
@@ -25,11 +25,11 @@ public class VR02_Toggle:MonoBehaviour, IInteractable {
 		throw new System.NotImplementedException();
 	}
 
-	public IEnumerable OnRelease() {
+	public IEnumerable OnTriggerRelease() {
 		throw new System.NotImplementedException();
 	}
 
-	public IEnumerable OnHold() {
+	public IEnumerable OnTriggerHold() {
 		throw new System.NotImplementedException();
 	}
 }

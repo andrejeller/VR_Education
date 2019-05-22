@@ -21,4 +21,5 @@ public class DEBUG:MonoBehaviour {
 		//debugText.text = oldTxt + System.Environment.NewLine + System.Environment.NewLine + dbg;
 		debugText.text = dbg;
 	}
+
 }

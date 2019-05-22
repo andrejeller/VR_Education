@@ -3,11 +3,16 @@ using UnityEngine.EventSystems;
 
 public interface IInteractable : IEventSystemHandler {
 
+	//Line/Point
 	IEnumerable OnPointerOver();
 	IEnumerable OnPointerExit();
-	IEnumerable OnPress();
-	IEnumerable OnRelease();
-	IEnumerable OnHold();
+
+	//Trigger
+	IEnumerable OnTriggerPress();
+	IEnumerable OnTriggerHold();
+	IEnumerable OnTriggerRelease();
+
+	//IEnumerable ThouchAxis();
 
 	//void Ray(float position);
 

@@ -7,47 +7,46 @@ public class VR02_Sol:MonoBehaviour, IInteractable {
 
 	public VR02_SolPivo pivo;
 
-	private bool isHolding = false;
 
-	public GameObject qq;
-
+	public bool holding = false;
+	public Pointer pointer;
 
 
 	private void Start() {
-		isHolding = false;
+		holding = false;
 	}
 
 	void Update() {
-		//if (!isHolding) return;
+		if (!holding) return;
 
-		//pivo.UpdateSol();
+		//Transform pOrigin = pointer.GetOriginPosition();
+		//float distance = Vector3.Distance(transform.position, pOrigin.position);
+		//transform.position = pOrigin.position + (pOrigin.forward * distance);
+
+
+		pivo.Update1(pointer.GetOriginPosition());
 	}
 
+	public IEnumerable OnTriggerHold() {
+		holding = true;
+		DEBUG.dbg.Updt("HOOLLLD");
+		yield return null;
+	}
+
+	public IEnumerable OnTriggerRelease() {
+		holding = false;
+		DEBUG.dbg.Updt("release");
+		yield return null;
+	}
 
 	public IEnumerable OnPointerExit() {
-		qq.SetActive(true);
-		yield return null;
+		throw new System.NotImplementedException();
 	}
-
 	public IEnumerable OnPointerOver() {
-		qq.SetActive(false);
-		yield return null;
+		throw new System.NotImplementedException();
+	}
+	public IEnumerable OnTriggerPress() {
+		throw new System.NotImplementedException();
 	}
 
-	public IEnumerable OnPress() {
-		qq.SetActive(false);
-		yield return null;
-
-	}
-
-	public IEnumerable OnRelease() {
-		qq.SetActive(true);
-		yield return null;
-	}
-
-	public IEnumerable OnHold() {
-		isHolding = true;
-		qq.SetActive(false);
-		yield return null;
-	}
 }

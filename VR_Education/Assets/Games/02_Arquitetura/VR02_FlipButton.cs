@@ -11,7 +11,7 @@ public class VR02_FlipButton : MonoBehaviour, IInteractable {
 		else      VR02_GameManager.instance.RotateActiveBuilding('r');
 	}
 
-	public IEnumerable OnHold() {
+	public IEnumerable OnTriggerHold() {
 		throw new System.NotImplementedException();
 	}
 
@@ -23,13 +23,13 @@ public class VR02_FlipButton : MonoBehaviour, IInteractable {
 		throw new System.NotImplementedException();
 	}
 
-	public IEnumerable OnPress() {
+	public IEnumerable OnTriggerPress() {
 		if (FlipToLeft) VR02_GameManager.instance.RotateActiveBuilding('l');
 		else VR02_GameManager.instance.RotateActiveBuilding('r');
 		yield return null;
 	}
 
-	public IEnumerable OnRelease() {
+	public IEnumerable OnTriggerRelease() {
 		throw new System.NotImplementedException();
 	}
 }
