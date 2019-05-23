@@ -3,44 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class VR02_Sol : MonoBehaviour, IInteractable {
+public class VR02_Sol:MonoBehaviour, IInteractable {
 
-	public GameObject DirectionalLight;
-	private Vector3 lastRotation;
+	public VR02_SolPivo pivo;
 
-	private bool isHolding = false;
+	public bool holding = false;
+	public Pointer pointer;
 
 	private void Start() {
-		lastRotation = transform.rotation.eulerAngles;
-		isHolding = false;
+		holding = false;
 	}
 
 	void Update() {
-		if (lastRotation != transform.rotation.eulerAngles) {
-			DirectionalLight.transform.DORotate(new Vector3(transform.rotation.eulerAngles.z, -90.0f, 0), 0.01f, RotateMode.Fast);
-			lastRotation = transform.rotation.eulerAngles;
-		}
+		if (!holding) return;
+
+		Transform pOrigin = pointer.GetOriginPosition();
+	
+		float distance = Vector3.Distance(transform.position, pOrigin.position);
+		Vector3 dist = pOrigin.position + (pOrigin.forward * distance);
+		pivo.Update1(dist);
 	}
 
+	public IEnumerable OnTriggerHold() {
+		holding = true;
+		DEBUG.dbg.Updt("HOOLLLD");
+		yield return null;
+	}
+
+	public IEnumerable OnTriggerRelease() {
+		holding = false;
+		DEBUG.dbg.Updt("release");
+		yield return null;
+	}
 
 	public IEnumerable OnPointerExit() {
 		throw new System.NotImplementedException();
 	}
-
 	public IEnumerable OnPointerOver() {
 		throw new System.NotImplementedException();
 	}
-
-	public IEnumerable OnPress() {
-		isHolding = true;
+	public IEnumerable OnTriggerPress() {
 		throw new System.NotImplementedException();
 	}
-
-	public IEnumerable OnRelease() {
-		isHolding = false;
-		throw new System.NotImplementedException();
-	}
-
-
 
 }

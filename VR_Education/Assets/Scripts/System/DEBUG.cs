@@ -17,7 +17,9 @@ public class DEBUG:MonoBehaviour {
 	}
 
 	public void Updt(string dbg) {
-		string oldTxt = debugText.text;
-		debugText.text = oldTxt + System.Environment.NewLine + System.Environment.NewLine + dbg;
+		//string oldTxt = debugText.text;
+		//debugText.text = oldTxt + System.Environment.NewLine + System.Environment.NewLine + dbg;
+		debugText.text = dbg;
 	}
+
 }

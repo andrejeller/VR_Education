@@ -23,8 +23,6 @@ public class VR01_QuestionToAsk {
     //public int QuestionID;
     [XmlAttribute("question")]
     public string myQuestion;
-    [XmlAttribute("about")]
-    public string about;
     [XmlAttribute("correctAnswer")]
     public int correctAnswer;
 
