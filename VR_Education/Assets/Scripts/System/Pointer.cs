@@ -13,7 +13,7 @@ public class Pointer:MonoBehaviour {
 	private Transform _currentOrigin = null;
 	private GameObject _currentObject = null;
 	private GameObject _lastObject = null;
-	private float _distance = 100.0f;
+	private float _distance = 110.0f;
 	private bool holdingObject = false;
 
 	private void Awake() {

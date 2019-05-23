@@ -7,10 +7,8 @@ public class VR02_Sol:MonoBehaviour, IInteractable {
 
 	public VR02_SolPivo pivo;
 
-
 	public bool holding = false;
 	public Pointer pointer;
-
 
 	private void Start() {
 		holding = false;
@@ -19,12 +17,11 @@ public class VR02_Sol:MonoBehaviour, IInteractable {
 	void Update() {
 		if (!holding) return;
 
-		//Transform pOrigin = pointer.GetOriginPosition();
-		//float distance = Vector3.Distance(transform.position, pOrigin.position);
-		//transform.position = pOrigin.position + (pOrigin.forward * distance);
-
-
-		pivo.Update1(pointer.GetOriginPosition());
+		Transform pOrigin = pointer.GetOriginPosition();
+	
+		float distance = Vector3.Distance(transform.position, pOrigin.position);
+		Vector3 dist = pOrigin.position + (pOrigin.forward * distance);
+		pivo.Update1(dist);
 	}
 
 	public IEnumerable OnTriggerHold() {
