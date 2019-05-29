@@ -4,13 +4,21 @@ using UnityEngine;
 using UnityEngine.UI.Extensions;
 
 public class VR00_GoToMenu:MonoBehaviour {
-
+	public static VR00_GoToMenu instance;
 
 	private float timer = 0;
 	public GameObject panel;
 	public RadialSlider slider;
 
+
+
 	private void Awake() {
+
+		if (instance == null)
+			instance = this;
+		else
+			Destroy(gameObject);
+
 		DontDestroyOnLoad(this);
 	}
 
