@@ -16,6 +16,8 @@ public class Pointer:MonoBehaviour {
 	private float _distance = 110.0f;
 	private bool holdingObject = false;
 
+	public float Distance { get { return _distance; } set { _distance = value; } }
+
 	private void Awake() {
 		PlayerEvents.OnControulerSource += UpdateOringin;
 		PlayerEvents.OnTriggerPressed += OnTriggerPress;
