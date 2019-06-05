@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 [SelectionBase]
 public class VR05_Planeta:MonoBehaviour, IInteractable {
 
-	public bool canMove;
+	public bool isTheSun;
+	public bool onCreation;
 
 	private Vector3 vel;
 	public VR05_Planeta outro;
@@ -14,17 +16,33 @@ public class VR05_Planeta:MonoBehaviour, IInteractable {
 	float Fa = 0; //Força de Atração
 	float g = 0.1f;
 	private float dee;
+	public GameObject selectSphere;
 
 	public bool holding = false;
 
 	void Start() {
 		mass = transform.localScale.x;
 		vel.Set(0.005f, 0.0f, 0.001f);
+		selectSphere.SetActive(false);
+	}
+
+	public void Initialize(float size) {
+		transform.localScale = new Vector3(size, size, size);
+		mass = transform.localScale.x;
+		vel.Set(0.005f, 0.0f, 0.001f);
+		selectSphere.SetActive(false);
 	}
 
 	void Update() {
 
 		if (holding) {
+
+			Vector3 force = Vector3.zero;
+			Vector3 acceleration = Vector3.zero;
+
+			pos += (vel + acceleration / 2.0f) * 5;
+			vel += acceleration;
+
 
 			Transform pOrigin = VR05_GameManager.instance.pointer.GetOriginPosition();
 			float distance = Vector3.Distance(transform.position, pOrigin.position);
@@ -32,10 +50,10 @@ public class VR05_Planeta:MonoBehaviour, IInteractable {
 		}
 		else {
 
-			if (!canMove) return;
+			if (isTheSun) return;
 
-			for (int i = 0; i < VR05_GameManager.instance.planetas.Length; i++) {
-				outro = VR05_GameManager.instance.planetas[i];
+			for (int i = 0; i < VR05_GameManager.instance.ActivePlanets.Count; i++) {
+				outro = VR05_GameManager.instance.ActivePlanets[i];
 				if (outro == this) continue;
 
 
@@ -70,18 +88,32 @@ public class VR05_Planeta:MonoBehaviour, IInteractable {
 
 	public IEnumerable OnTriggerRelease() {
 		holding = false;
+
+		if (onCreation) {
+			Transform pOrigin = VR05_GameManager.instance.pointer.GetOriginPosition();
+			Vector3 goTo = pOrigin.forward * 5;
+			transform.DOMove(goTo, 1.3f, false);
+			yield return new WaitForSeconds(1.3f);
+			isTheSun = false;
+			onCreation = false;
+		}
+
 		DEBUG.dbg.Updt("On Release");
 		yield return null;
 	}
 
 	public IEnumerable OnPointerExit() {
-		throw new System.NotImplementedException();
+		selectSphere.SetActive(false);
+		yield return null;
 	}
 	public IEnumerable OnPointerOver() {
-		throw new System.NotImplementedException();
+		selectSphere.SetActive(true);
+		yield return null;
 	}
 	public IEnumerable OnTriggerPress() {
-		throw new System.NotImplementedException();
+		DEBUG.dbg.Updt("PRESS");
+		holding = true;
+		yield return null;
 	}
 
 }
