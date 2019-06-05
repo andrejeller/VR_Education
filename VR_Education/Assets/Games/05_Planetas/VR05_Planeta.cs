@@ -81,7 +81,7 @@ public class VR05_Planeta:MonoBehaviour, IInteractable {
 	}
 
 	public IEnumerable OnTriggerHold() {
-		DEBUG.dbg.Updt("Hold");
+		//DEBUG.dbg.Updt("Hold");
 		holding = true;
 		yield return null;
 	}
@@ -91,14 +91,18 @@ public class VR05_Planeta:MonoBehaviour, IInteractable {
 
 		if (onCreation) {
 			Transform pOrigin = VR05_GameManager.instance.pointer.GetOriginPosition();
-			Vector3 goTo = pOrigin.forward * 5;
-			transform.DOMove(goTo, 1.3f, false);
-			yield return new WaitForSeconds(1.3f);
-			isTheSun = false;
+
+			float distance = Vector3.Distance(transform.position, pOrigin.position);
+			Vector3 goTo = pOrigin.position + (pOrigin.forward * (distance * 5));
+			transform.DOMove(goTo, 0.7f, false);
 			onCreation = false;
+			isTheSun = false;
+
+			yield return new WaitForSeconds(1.3f);
+			
 		}
 
-		DEBUG.dbg.Updt("On Release");
+		//DEBUG.dbg.Updt("On Release");
 		yield return null;
 	}
 
@@ -111,9 +115,10 @@ public class VR05_Planeta:MonoBehaviour, IInteractable {
 		yield return null;
 	}
 	public IEnumerable OnTriggerPress() {
-		DEBUG.dbg.Updt("PRESS");
-		holding = true;
+		//DEBUG.dbg.Updt("PRESS");
+		//holding = true;
 		yield return null;
 	}
 
+   
 }

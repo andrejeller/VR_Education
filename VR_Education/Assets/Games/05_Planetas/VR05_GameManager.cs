@@ -43,7 +43,7 @@ public class VR05_GameManager:MonoBehaviour {
 
 
 	private void Update() {
-		if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad) || Input.GetKeyDown(KeyCode.Q)) {
+		if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad) || Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Q)) {
 			creationTime = cPanel.TogglePanel();
 		}
 

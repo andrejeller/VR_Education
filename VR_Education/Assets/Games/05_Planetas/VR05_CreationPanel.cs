@@ -62,10 +62,10 @@ public class VR05_CreationPanel:MonoBehaviour {
 
 		switch (creationStep) {
 			case 0:
-			DEBUG.dbg.Updt("step 0");
+			//DEBUG.dbg.Updt("step 0");
 				//Choose Scale, arrasta em X
 				fakeregua.SetActive(false);
-				DEBUG.dbg.Updt(awayPosition.ToString());
+				//DEBUG.dbg.Updt(awayPosition.ToString());
 				float inputPositionX = awayPosition.x + 2;
 				if (inputPositionX < 0) inputPositionX = 0;
 				if (inputPositionX > 7) inputPositionX = 7;
@@ -80,17 +80,17 @@ public class VR05_CreationPanel:MonoBehaviour {
 				break;
 
 			case 1:
-			DEBUG.dbg.Updt("step 1");
+			//DEBUG.dbg.Updt("step 1");
 				//Choose  distancia em Z, arastanto para cima
 				fakeregua.SetActive(true);
-				float inputPositionZ = awayPosition.y - 13;
+				float inputPositionZ = awayPosition.y - 15;
 				if (inputPositionZ < 0) inputPositionZ = 0;
-				if (inputPositionZ > 17) inputPositionZ = 17;
+				if (inputPositionZ > 15) inputPositionZ = 15;
 
-				_pZpos = Mathf.Lerp(15.0f, 180.0f, inputPositionZ / 17);
+				_pZpos = Mathf.Lerp(15.0f, 180.0f, inputPositionZ / 15);
 				placeHolderSpheere.transform.localPosition = new Vector3(0, 0, _pZpos);
 
-				DEBUG.dbg.Updt(awayPosition.ToString() + System.Environment.NewLine + _pZpos);
+				//DEBUG.dbg.Updt(awayPosition.ToString() + System.Environment.NewLine + _pZpos);
 
 
 				if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
@@ -100,7 +100,7 @@ public class VR05_CreationPanel:MonoBehaviour {
 
 
 			case 2:
-			DEBUG.dbg.Updt("step 2");
+			//DEBUG.dbg.Updt("step 2");
 				fakeregua.SetActive(false);
 				placeHolderSpheere.SetActive(false);
 
@@ -109,12 +109,13 @@ public class VR05_CreationPanel:MonoBehaviour {
 				break;
 
 			case 3:
-			DEBUG.dbg.Updt("step 3");
+			//DEBUG.dbg.Updt("step 3");
 				//Grab
 				//shoooot
 				if (!theNewOne.holding && !theNewOne.onCreation) {
 
 					//Fecha tudo e zera
+					isActive = false;
 					CloseAndRestart();
 					stillCreating = false;
 					theNewOne = null;
@@ -137,7 +138,7 @@ public class VR05_CreationPanel:MonoBehaviour {
 	}
 
 	private void CloseAndRestart() {
-		isActive = false;
+		//isActive = false;
 		creationStep = 0;
 		thePanel.SetActive(false);
 		fakeregua.SetActive(false);
