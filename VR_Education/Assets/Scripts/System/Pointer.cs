@@ -16,7 +16,7 @@ public class Pointer:MonoBehaviour {
 	private float _distance = 110.0f;
 	private bool holdingObject = false;
 
-	public float Distance { get { return _distance; } set { _distance = value; } }
+	public float Distance { get { return _distance; } set { _distance = value; SetLineColor(); } }
 
 	private void Awake() {
 		PlayerEvents.OnControulerSource += UpdateOringin;
@@ -127,6 +127,7 @@ public class Pointer:MonoBehaviour {
 	private void OnTriggerPress() {
 		if (!_currentObject) return;
 		//_currentObject.SetActive(false);
+		holdingObject = true;
 		_currentObject.Send<IInteractable>(_ => _.OnTriggerPress());
 	}
 
