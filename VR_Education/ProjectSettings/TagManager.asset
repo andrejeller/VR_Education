@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ParedeSanguinea
   - Virus
+  - Wall
   layers:
   - Default
   - TransparentFX

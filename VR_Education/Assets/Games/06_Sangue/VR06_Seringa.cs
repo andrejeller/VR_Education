@@ -17,7 +17,7 @@ public class VR06_Seringa:MonoBehaviour {
 	}
 
 	public void Release() {
-		cabo.transform.DOLocalMoveZ(-0.15f, moveTime, false);
+		cabo.transform.DOLocalMoveZ(-0.14f, moveTime, false);
 	}
 
 }

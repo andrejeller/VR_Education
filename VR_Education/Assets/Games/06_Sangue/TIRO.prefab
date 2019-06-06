@@ -36,9 +36,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4971448078054622}
+  - component: {fileID: 54494225917004798}
   - component: {fileID: 136741592074234710}
   - component: {fileID: 114619081729786306}
-  - component: {fileID: 54494225917004798}
   m_Layer: 0
   m_Name: TIRO
   m_TagString: Untagged

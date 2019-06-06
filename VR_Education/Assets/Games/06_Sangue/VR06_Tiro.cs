@@ -6,7 +6,7 @@ public class VR06_Tiro:MonoBehaviour {
 
 
 	public void shoteME() {
-		GetComponent<Rigidbody>().AddForce(transform.forward * 10, ForceMode.Impulse);
+		GetComponent<Rigidbody>().AddForce(transform.forward * 20, ForceMode.Impulse);
 	}
 
 
@@ -16,6 +16,7 @@ public class VR06_Tiro:MonoBehaviour {
 			Destroy(gameObject);
 		else if (collision.gameObject.tag == "Virus") {
 			Destroy(collision.gameObject);
+			VR06_GameManager.instance.VirusDie(transform);
 			Destroy(gameObject);
 		}
 

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33298043448241754}
   - component: {fileID: 23600804158035340}
   - component: {fileID: 54701024900124130}
-  - component: {fileID: 114952615200165344}
+  - component: {fileID: 114279990988818512}
   m_Layer: 0
   m_Name: hemacia
   m_TagString: Untagged
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215698019610632}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.00068204, z: 2.6296}
+  m_LocalPosition: {x: 0, y: -0.86, z: 2.6296}
   m_LocalScale: {x: 0.1, y: 0.099999994, z: 0.061761}
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,7 +100,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114952615200165344
+--- !u!114 &114279990988818512
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1215698019610632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
+  m_Script: {fileID: 11500000, guid: e5ef892469e8825429a7b0f20898e759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 0}
