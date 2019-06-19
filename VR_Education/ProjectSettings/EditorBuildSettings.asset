@@ -8,19 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/00_MainMenu.unity
     guid: c8e1c29342d56604b93d618a7cd98f48
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/01_Quiz.unity
     guid: b0de4dee2c9ceb846b24cc1c244aac31
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/02_Arquitetura.unity
     guid: 1d0180f896c697f4fb4088e96f3582f1
   - enabled: 0
     path: Assets/Scenes/03_Resistor.unity
     guid: fd7a71fd14e384b469aafea6af9b6ec6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/05_Planetas.unity
     guid: c711832c8560367448fff3e71fe08607
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/06_Sangue.unity
     guid: bcc33ea4092f1ae47ae3a4fd25c1be69
+  - enabled: 1
+    path: Assets/Scenes/07_Quimica.unity
+    guid: 684ec78e4f15c1c4e8c30732da83a50a
   m_configObjects: {}
