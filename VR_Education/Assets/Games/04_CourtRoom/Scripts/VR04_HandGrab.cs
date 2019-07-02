@@ -41,10 +41,6 @@ public class VR04_HandGrab : MonoBehaviour {
 		}
 	}
 
-
-
-
-
 	private void OnTriggerStay(Collider other)
 	{
 		
@@ -83,4 +79,17 @@ public class VR04_HandGrab : MonoBehaviour {
 			canGrab = false;
 		}
 	}
+
+	public bool getGrabbed()
+	{
+		return (grabbed);
+	}
+
+	public void outsideGrab(GameObject other)
+	{
+		canGrab = false;
+		grabbed = true;
+		grabbedobj = other;
+	}
+	
 }

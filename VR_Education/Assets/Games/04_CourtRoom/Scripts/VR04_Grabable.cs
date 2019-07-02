@@ -50,5 +50,9 @@ public class VR04_Grabable : MonoBehaviour
 		rb.constraints = RigidbodyConstraints.None;
 		transform.parent = null;
 		grabbed = false;
+		if (gameObject.tag == "Grabable Special")
+		{
+			transform.position= new Vector3(-0.0012f,2.146484f,-5.307129f);
+		}
 	}
 }

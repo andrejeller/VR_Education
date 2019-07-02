@@ -472,6 +472,7 @@
               <e p="VR04_Item.cs" t="Include" />
               <e p="VR04_SpawnObj.cs" t="Include" />
               <e p="VR04_WoodButton.cs" t="Include" />
+              <e p="VR04_Xray.cs" t="Include" />
             </e>
           </e>
           <e p="05_Planetas" t="Include">

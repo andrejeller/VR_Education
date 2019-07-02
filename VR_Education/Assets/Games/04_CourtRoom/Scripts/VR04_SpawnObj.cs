@@ -12,36 +12,51 @@ public class VR04_SpawnObj : MonoBehaviour
 	private int countNumber = 0;
 	private GameObject currentObj;
 	private bool hisGuilty;
+	private VR04_Grabable currentObjScr;
 
 	void Start()
 	{
-
+		instancePrefab();
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
+		if (currentObjScr.grabbed == false)
+		{
+			currentObj.transform.position = transform.position;
+		}
 
+		if (Input.GetKeyDown(KeyCode.Z))
+		{
+			compareResult(true);
+		}
+		if (Input.GetKeyDown(KeyCode.X))
+		{
+			compareResult(false);
+		}
 	}
 
-	void instancePrefab()
+	private void instancePrefab()
 	{
 		if (currentObj != null)
 		{
 			Destroy(currentObj);
 		}
 
-		if (countNumber > objetos.Length)
+		
+
+		currentObj = Instantiate(objetos[countNumber], transform.position, objetos[countNumber].transform.rotation);
+		hisGuilty = currentObj.GetComponent<VR04_Item>().getGuilty();
+		currentObjScr = currentObj.GetComponent<VR04_Grabable>();
+		countNumber++;
+		if (countNumber > 4)
 		{
 			countNumber = 0;
 		}
-
-		currentObj = Instantiate(objetos[countNumber], transform.position, Quaternion.identity);
-		hisGuilty = currentObj.GetComponent<VR04_Item>().getGuilty();
-		countNumber++;
 	}
 
-	void compareResult(bool inputHammer)
+	public void compareResult(bool inputHammer)
 	{
 		if (inputHammer == hisGuilty)
 		{
@@ -51,6 +66,7 @@ public class VR04_SpawnObj : MonoBehaviour
 		{
 			AudioSource.PlayClipAtPoint(clip[1], transform.position);
 		}
+		instancePrefab();
 	}
 	
 }
