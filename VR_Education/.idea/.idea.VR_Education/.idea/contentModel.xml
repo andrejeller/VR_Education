@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\lajep\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\lajep\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_VR_Education.1332358271.00" t="ExcludeRecursive" />
+    <e p="C:\Users\lajep\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_VR_Education.1332358271.01" t="ExcludeRecursive" />
     <e p="C:\Users\lajep\Documents\GitHub\VR_Education\VR_Education" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -469,6 +469,8 @@
               <e p="VR04_chair.cs" t="Include" />
               <e p="VR04_Grabable.cs" t="Include" />
               <e p="VR04_HandGrab.cs" t="Include" />
+              <e p="VR04_Item.cs" t="Include" />
+              <e p="VR04_SpawnObj.cs" t="Include" />
               <e p="VR04_WoodButton.cs" t="Include" />
             </e>
           </e>

@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
 public class VR04_WoodButton : MonoBehaviour {
-	public AudioClip clip;
+	public AudioClip[] clip = new AudioClip[2];
 	// Use this for initialization
 	void Start () {
 		
@@ -20,7 +20,11 @@ public class VR04_WoodButton : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Hammer")
 		{
-			AudioSource.PlayClipAtPoint(clip, transform.position);
+			AudioSource.PlayClipAtPoint(clip[0], transform.position);
+		}
+		else if(other.gameObject.tag == "Hammer Toy")
+		{
+			AudioSource.PlayClipAtPoint(clip[1], transform.position);
 		}
 	}
 }
