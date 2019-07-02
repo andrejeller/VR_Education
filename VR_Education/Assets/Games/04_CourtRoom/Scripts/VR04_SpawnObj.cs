@@ -13,6 +13,7 @@ public class VR04_SpawnObj : MonoBehaviour
 	private GameObject currentObj;
 	private bool hisGuilty;
 	private VR04_Grabable currentObjScr;
+	public GameObject woodButtonObj;
 
 	void Start()
 	{
@@ -60,11 +61,11 @@ public class VR04_SpawnObj : MonoBehaviour
 	{
 		if (inputHammer == hisGuilty)
 		{
-			AudioSource.PlayClipAtPoint(clip[0], transform.position);
+			woodButtonObj.GetComponent<VR04_WoodButton>().playSound(2);
 		}
 		else
 		{
-			AudioSource.PlayClipAtPoint(clip[1], transform.position);
+			woodButtonObj.GetComponent<VR04_WoodButton>().playSound(3);
 		}
 		instancePrefab();
 	}

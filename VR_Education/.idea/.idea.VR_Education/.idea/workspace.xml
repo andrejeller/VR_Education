@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb4301ed-34f5-43f2-80e3-cf23d0abb50b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_HandGrab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_HandGrab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Education/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Education/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/04_CourtRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/04_CourtRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VRTest.apk" beforeDir="false" afterPath="$PROJECT_DIR$/VRTest.apk" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+            <state relative-caret-position="713">
+              <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
               <folding>
-                <marker date="1562087608764" expanded="false" signature="6:157" ph="..." />
-                <marker date="1562087608764" expanded="true" signature="201:1336" ph="{...}" />
-                <marker date="1562087608764" expanded="true" signature="308:348" ph="{...}" />
-                <marker date="1562087608764" expanded="true" signature="372:518" ph="{...}" />
-                <marker date="1562087608764" expanded="true" signature="377:512" ph="/* if (!grabbed &amp;&amp; !pinned) ... */" />
-                <marker date="1562087608764" expanded="true" signature="561:1040" ph="{...}" />
-                <marker date="1562087608764" expanded="true" signature="1067:1334" ph="{...}" />
-                <marker date="1562087608764" expanded="true" signature="1256:1331" ph="{...}" />
+                <marker date="1562093976562" expanded="false" signature="6:157" ph="..." />
+                <marker date="1562093976562" expanded="true" signature="201:1336" ph="{...}" />
+                <marker date="1562093976562" expanded="true" signature="308:348" ph="{...}" />
+                <marker date="1562093976562" expanded="true" signature="372:518" ph="{...}" />
+                <marker date="1562093976562" expanded="true" signature="377:512" ph="/* if (!grabbed &amp;&amp; !pinned) ... */" />
+                <marker date="1562093976562" expanded="true" signature="561:1040" ph="{...}" />
+                <marker date="1562093976562" expanded="true" signature="1067:1334" ph="{...}" />
+                <marker date="1562093976562" expanded="true" signature="1256:1331" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -80,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="600">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <marker date="1562087758477" expanded="false" signature="6:78" ph="..." />
                 <marker date="1562087758477" expanded="true" signature="118:946" ph="{...}" />
@@ -119,40 +116,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="538">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
-                <marker date="1562087076113" expanded="false" signature="6:78" ph="..." />
-                <marker date="1562087076113" expanded="true" signature="122:1371" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="393:419" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="471:714" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="512:575" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="611:643" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="678:711" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="746:1118" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="775:807" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="1087:1115" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="1164:1367" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="1199:1268" ph="{...}" />
-                <marker date="1562087076113" expanded="true" signature="1275:1344" ph="{...}" />
+                <marker date="1562088804315" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562088804315" expanded="true" signature="122:1409" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="427:453" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="505:748" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="546:609" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="645:677" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="712:745" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="780:1152" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="809:841" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1121:1149" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1198:1405" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1233:1304" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1311:1382" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
               <folding>
-                <marker date="1562079452157" expanded="false" signature="6:78" ph="..." />
-                <marker date="1562079452157" expanded="true" signature="165:774" ph="{...}" />
-                <marker date="1562079452157" expanded="true" signature="291:298" ph="{...}" />
-                <marker date="1562079452157" expanded="true" signature="353:360" ph="{...}" />
-                <marker date="1562079452157" expanded="true" signature="409:772" ph="{...}" />
-                <marker date="1562079452157" expanded="true" signature="452:586" ph="{...}" />
-                <marker date="1562079452157" expanded="true" signature="634:769" ph="{...}" />
+                <marker date="1562094012842" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562094012842" expanded="true" signature="165:783" ph="{...}" />
+                <marker date="1562094012842" expanded="true" signature="291:298" ph="{...}" />
+                <marker date="1562094012842" expanded="true" signature="353:360" ph="{...}" />
+                <marker date="1562094012842" expanded="true" signature="409:684" ph="{...}" />
+                <marker date="1562094012842" expanded="true" signature="452:542" ph="{...}" />
+                <marker date="1562094012842" expanded="true" signature="590:681" ph="{...}" />
+                <marker date="1562094012842" expanded="true" signature="715:781" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,17 +178,17 @@
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/VR04_chair.cs" />
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_chair.cs" />
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Xray.cs" />
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_HandGrab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs" />
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-106" />
+    <option name="x" value="2197" />
     <option name="y" value="-8" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
@@ -259,12 +257,12 @@
       <workItem from="1559236751615" duration="143000" />
       <workItem from="1559236987189" duration="9253000" />
       <workItem from="1562073521128" duration="146000" />
-      <workItem from="1562073685098" duration="9301000" />
+      <workItem from="1562073685098" duration="13945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18843000" />
+    <option name="totallyTimeSpent" value="23487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,10 +274,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="2576" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19236884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -364,22 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <marker date="1562079452157" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562079452157" expanded="true" signature="165:774" ph="{...}" />
-            <marker date="1562079452157" expanded="true" signature="291:298" ph="{...}" />
-            <marker date="1562079452157" expanded="true" signature="353:360" ph="{...}" />
-            <marker date="1562079452157" expanded="true" signature="409:772" ph="{...}" />
-            <marker date="1562079452157" expanded="true" signature="452:586" ph="{...}" />
-            <marker date="1562079452157" expanded="true" signature="634:769" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -390,28 +371,6 @@
             <marker date="1562078788656" expanded="true" signature="194:246" ph="{...}" />
             <marker date="1562078788656" expanded="true" signature="273:298" ph="{...}" />
             <marker date="1562078788656" expanded="true" signature="315:404" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <marker date="1562087076113" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562087076113" expanded="true" signature="122:1371" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="393:419" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="471:714" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="512:575" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="611:643" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="678:711" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="746:1118" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="775:807" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="1087:1115" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="1164:1367" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="1199:1268" ph="{...}" />
-            <marker date="1562087076113" expanded="true" signature="1275:1344" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -441,27 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
-          <folding>
-            <marker date="1562087608764" expanded="false" signature="6:157" ph="..." />
-            <marker date="1562087608764" expanded="true" signature="201:1336" ph="{...}" />
-            <marker date="1562087608764" expanded="true" signature="308:348" ph="{...}" />
-            <marker date="1562087608764" expanded="true" signature="372:518" ph="{...}" />
-            <marker date="1562087608764" expanded="true" signature="377:512" ph="/* if (!grabbed &amp;&amp; !pinned) ... */" />
-            <marker date="1562087608764" expanded="true" signature="561:1040" ph="{...}" />
-            <marker date="1562087608764" expanded="true" signature="1067:1334" ph="{...}" />
-            <marker date="1562087608764" expanded="true" signature="1256:1331" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="600">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <marker date="1562087758477" expanded="false" signature="6:78" ph="..." />
             <marker date="1562087758477" expanded="true" signature="118:946" ph="{...}" />
@@ -472,6 +414,62 @@
             <marker date="1562087758477" expanded="true" signature="672:944" ph="{...}" />
             <marker date="1562087758477" expanded="true" signature="759:941" ph="{...}" />
             <marker date="1562087758477" expanded="true" signature="821:937" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <marker date="1562088804315" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562088804315" expanded="true" signature="122:1409" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="427:453" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="505:748" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="546:609" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="645:677" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="712:745" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="780:1152" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="809:841" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1121:1149" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1198:1405" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1233:1304" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1311:1382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+          <folding>
+            <marker date="1562093976562" expanded="false" signature="6:157" ph="..." />
+            <marker date="1562093976562" expanded="true" signature="201:1336" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="308:348" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="372:518" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="377:512" ph="/* if (!grabbed &amp;&amp; !pinned) ... */" />
+            <marker date="1562093976562" expanded="true" signature="561:1040" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="1067:1334" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="1256:1331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding>
+            <marker date="1562094012842" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562094012842" expanded="true" signature="165:783" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="291:298" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="353:360" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="409:684" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="452:542" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="590:681" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="715:781" ph="{...}" />
           </folding>
         </state>
       </provider>
