@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <VR01_Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  
+
   <toAsk question="De quem é a famosa frase “Penso, logo existo”?" correctAnswer="0">
     <answer>Descartes</answer>
     <answer>Galileu Galilei</answer>
@@ -28,5 +28,5 @@
     <answer>2</answer>
     <answer>3</answer>
   </toAsk>
-  
+
 </VR01_Question>

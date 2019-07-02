@@ -26,7 +26,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/07_Quimica.unity
     guid: 684ec78e4f15c1c4e8c30732da83a50a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/08_Estagio.unity
     guid: df3c2bfa04373d24fb4b2c6db502f53d
+  - enabled: 1
+    path: Assets/Scenes/09_Portugues.unity
+    guid: 8b51d041297c4e14ea0fd3c3a6a9c6b4
   m_configObjects: {}
