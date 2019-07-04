@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class VR09_NextButton : MonoBehaviour, IInteractable {
 
@@ -16,10 +17,12 @@ public class VR09_NextButton : MonoBehaviour, IInteractable {
 	}
 
 	public IEnumerable OnPointerExit() {
-		throw new System.NotImplementedException();
+		transform.DOScale(1.0f, 0.3f);
+		yield return null;
 	}
 	public IEnumerable OnPointerOver() {
-		throw new System.NotImplementedException();
+		transform.DOScale(1.2f, 0.3f);
+		yield return null;
 	}
 	public IEnumerable OnTriggerHold() {
 		throw new System.NotImplementedException();

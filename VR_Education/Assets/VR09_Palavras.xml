@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VR09_Palavra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Word LettersCount="7">Abacaxi</Word>
-  <Word LettersCount="7">4b4c4x1</Word>
-  <Word LettersCount="6">aaabbf</Word>
+  <Word>Abacaxi</Word>
+  <Word>Elefante</Word>
+  <Word>Abelha</Word>
+  <Word>Quadro</Word>
+  <Word>Cadeira</Word>
+  <Word>Computador</Word>
+  <Word>Orelhão</Word>
+  
 </VR09_Palavra>

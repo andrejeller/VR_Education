@@ -25,11 +25,12 @@ public class VR09_XMLManager : MonoBehaviour {
 	public void Save() {
 
 		XmlSerializer serializer = new XmlSerializer(typeof(VR09_Palavra));
-		FileStream file = new FileStream(Application.streamingAssetsPath + "VR09_Palavras.xml", FileMode.Create);
+		FileStream file = new FileStream(Application.streamingAssetsPath + "/../VR09_Palavras.xml", FileMode.OpenOrCreate);
 		serializer.Serialize(file, XMLWords);
 		
 		file.Close();
-		Debug.Log("SaveComplete" + XMLWords);
+		Debug.Log("SaveComplete " + XMLWords.words[XMLWords.words.Count - 1].theWord);
+		//Debug.Log("../" + Application.persistentDataPath);
 	}
 
 
@@ -38,7 +39,7 @@ public class VR09_XMLManager : MonoBehaviour {
 	#region Loading Words
 	public void LoadWords() {
 		XmlSerializer serializer = new XmlSerializer(typeof(VR09_Palavra));
-		string path = Path.Combine(Application.streamingAssetsPath, "VR09_Palavras.xml");
+		string path = Path.Combine(Application.streamingAssetsPath, "../VR09_Palavras.xml");
 
 		Debug.Log("SYS: Entrando em Android Path");
 		StartCoroutine(WaitinForLoad(path));

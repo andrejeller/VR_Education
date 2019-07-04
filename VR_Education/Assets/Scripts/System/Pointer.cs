@@ -17,6 +17,7 @@ public class Pointer:MonoBehaviour {
 	private bool holdingObject = false;
 
 	public float Distance { get { return _distance; } set { _distance = value; SetLineColor(); } }
+	public bool IsHodingSomething { get { return holdingObject; } }
 
 	private void Awake() {
 		PlayerEvents.OnControulerSource += UpdateOringin;

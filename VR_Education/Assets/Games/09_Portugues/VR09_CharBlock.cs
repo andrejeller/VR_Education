@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[SelectionBase]
 public class VR09_CharBlock : MonoBehaviour, IInteractable {
 
 	public char myChar;
@@ -19,7 +20,8 @@ public class VR09_CharBlock : MonoBehaviour, IInteractable {
 
 		Transform pOrigin = VR09_GameManager.instance.pointer.GetOriginPosition();
 		float distance = Vector3.Distance(transform.position, pOrigin.position);
-		transform.position = pOrigin.position + (pOrigin.forward * distance);
+		Vector3 longDistance = pOrigin.position + (pOrigin.forward * distance);
+		transform.localPosition = new Vector3(longDistance.x + 175.2f, transform.localPosition.y, longDistance.y - 95.7f);
 
 	}
 
