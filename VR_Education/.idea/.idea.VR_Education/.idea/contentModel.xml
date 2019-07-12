@@ -487,10 +487,10 @@
           </e>
           <e p="13_PaintBall" t="Include">
             <e p="Scripts" t="Include">
-              <e p="PixelCanvas.cs" t="Include" />
               <e p="VR13_Bullet.cs" t="Include" />
               <e p="VR13_Canvas.cs" t="Include" />
               <e p="VR13_GunScript.cs" t="Include" />
+              <e p="VR13_PixelCanvas.cs" t="Include" />
             </e>
           </e>
         </e>

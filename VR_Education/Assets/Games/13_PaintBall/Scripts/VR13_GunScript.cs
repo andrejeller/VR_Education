@@ -34,14 +34,21 @@ public class VR13_GunScript : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.D))
 		{
 			GameObject.Find("Canvas").GetComponent<VR13_Canvas>().GetImageColors(true);
+			
+			VR13_Bullet[] bulletInScreen;
+			bulletInScreen = FindObjectsOfType<VR13_Bullet>();
+			for (int clone =0; clone < bulletInScreen.Length ; clone++){
+				Destroy(bulletInScreen[clone].gameObject);
+			}
 		}
 	}
 
 	public void UpdateColors(List<Color> allColors)
 	{
+		render = GetComponent<Renderer>();
 		imageColors = allColors;
 		colorBase = imageColors[0];
-		render.materials[4].color = colorBase;
+		render.materials[1].color = colorBase;
 		
 	}
 	void SwitchColor()
@@ -53,7 +60,7 @@ public class VR13_GunScript : MonoBehaviour
 				colorValue++;
 				if (colorValue > imageColors.Count-1) colorValue = 0;
 				colorBase = imageColors[colorValue];
-				render.materials[4].color = colorBase;
+				render.materials[1].color = colorBase;
 			}
 		}
 	}
