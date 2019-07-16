@@ -23,7 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/04_CourtRoom.unity
     guid: 0801911478129814294d524020ff50dd
-  - enabled: 1
-    path: Assets/Scenes/13_PaintBall.unity
+  - enabled: 0
+    path: Assets/Scenes/13_Costura.unity
     guid: b8c4906edf7f575429932bcd9b7d7f62
+  - enabled: 1
+    path: Assets/Scenes/10_Piano.unity
+    guid: 06be744a5461384499ff1fc4ef7b3e49
   m_configObjects: {}

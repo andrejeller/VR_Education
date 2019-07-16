@@ -485,7 +485,13 @@
             <e p="VR05_GameManager.cs" t="Include" />
             <e p="VR05_Planeta.cs" t="Include" />
           </e>
-          <e p="13_PaintBall" t="Include">
+          <e p="10_Piano" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="VR10_Hand.cs" t="Include" />
+              <e p="VR10_PianoKeyScript.cs" t="Include" />
+            </e>
+          </e>
+          <e p="13_Costura" t="Include">
             <e p="Scripts" t="Include">
               <e p="VR13_Bullet.cs" t="Include" />
               <e p="VR13_Canvas.cs" t="Include" />
