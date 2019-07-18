@@ -512,44 +512,6 @@
           </e>
         </e>
         <e p="GoogleVR" t="Include">
-          <e p="Demos" t="Include">
-            <e p="Editor" t="Include">
-              <e p="DemoInputManagerEditor.cs" t="Include" />
-              <e p="PermissionsDemoBuildProcessor.cs" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="DemoInputManager.cs" t="Include" />
-              <e p="DemoSceneManager.cs" t="Include" />
-              <e p="HelloVR" t="Include">
-                <e p="HeadsetDemoManager.cs" t="Include" />
-                <e p="HelloVRManager.cs" t="Include" />
-                <e p="ObjectController.cs" t="Include" />
-              </e>
-              <e p="KeyboardDemo" t="Include">
-                <e p="KeyboardDelegateExample.cs" t="Include" />
-              </e>
-              <e p="PermissionsDemo" t="Include">
-                <e p="PermissionsFlowManager.cs" t="Include" />
-              </e>
-              <e p="VideoDemo" t="Include">
-                <e p="AppButtonInput.cs" t="Include" />
-                <e p="AutoPlayVideo.cs" t="Include" />
-                <e p="InputEvents.cs" t="Include" />
-                <e p="MenuHandler.cs" t="Include" />
-                <e p="PositionSwapper.cs" t="Include" />
-                <e p="ScrubberEvents.cs" t="Include" />
-                <e p="SwitchVideos.cs" t="Include" />
-                <e p="ToggleAction.cs" t="Include" />
-                <e p="VideoControlsManager.cs" t="Include" />
-                <e p="VideoPlayerReference.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Shaders" t="Include">
-              <e p="HelloVR" t="Include">
-                <e p="HelloVRUnlitGrayscaleToColor.shader" t="Include" />
-              </e>
-            </e>
-          </e>
           <e p="Editor" t="Include">
             <e p="Controller" t="Include">
               <e p="GvrControllerVisualEditor.cs" t="Include" />

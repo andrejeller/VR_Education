@@ -19,6 +19,6 @@ public class VR10_Hand : MonoBehaviour
 	{
 		float convertYtoXPos = Mathf.Sin(trueHand.transform.rotation.eulerAngles.y * Mathf.Deg2Rad)*5.98f;
 		float convertXtoYPos =  Mathf.Sin(trueHand.transform.rotation.eulerAngles.x * Mathf.Deg2Rad)*2.2f;
-		//transform.position = new Vector3(convertYtoXPos,initialHeight-convertXtoYPos,transform.position.z);
+		transform.position = new Vector3(convertYtoXPos,initialHeight-convertXtoYPos,transform.position.z);
 	}
 }
