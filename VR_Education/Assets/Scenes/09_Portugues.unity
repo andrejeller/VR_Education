@@ -871,10 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   XMLWords:
-    words:
-    - theWord: Abacaxi
-    - theWord: 4b4c4x1
-    - theWord: aaabbf
+    words: []
 --- !u!114 &64018692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9423,7 +9420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &871947314
 MonoBehaviour:
   m_ObjectHideFlags: 0
