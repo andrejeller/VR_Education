@@ -154,7 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.jellerEisrael.VREducation
+    Android: com.jellerEisrael.basquete
     Standalone: com.oculus.UnitySample
   buildNumber: {}
   AndroidBundleVersionCode: 1
