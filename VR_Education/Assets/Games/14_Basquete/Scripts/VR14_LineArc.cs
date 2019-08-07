@@ -9,7 +9,7 @@ public class VR14_LineArc:MonoBehaviour {
 
 
 	private float radianAngles;
-	private float angle, InitialY, g, vel = 90;
+	private float angle, InitialY, g, vel = 100;
 	private int pointsCount = 10;
 
 

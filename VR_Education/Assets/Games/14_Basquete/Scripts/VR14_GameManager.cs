@@ -37,7 +37,7 @@ public class VR14_GameManager:MonoBehaviour {
 	}
 
 	private void ThrowBall() {
-		actualBall.GetComponent<Rigidbody>().AddForce(anchor.transform.forward * 9000, ForceMode.Acceleration);
+		actualBall.GetComponent<Rigidbody>().AddForce(anchor.transform.forward * 90, ForceMode.Acceleration);
 		actualBall.GetComponent<Rigidbody>().useGravity = true;
 		actualBall.transform.parent = null;
 		actualBall = null;
