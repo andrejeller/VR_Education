@@ -17,6 +17,8 @@ public class VR14_GameManager:MonoBehaviour {
 	public bool HandOnShelf = false;
 	private bool GeneratingBall = false;
 
+	private float throwForce = 4000; //90
+
 	void Update() {
 
 		if (/*HandOnShelf &&*/ !GeneratingBall && (VRInput.TriggerDown() || VRInput.aBotaoTesteDown())) {
@@ -33,14 +35,15 @@ public class VR14_GameManager:MonoBehaviour {
 	private void GenerateBall() {
 		GeneratingBall = true;
 		actualBall = Instantiate(ballPrefab, anchor.transform);
-		actualBall.transform.localPosition = new Vector3(0, 0, 1.0f);
+		actualBall.transform.localPosition = new Vector3(0, 0, 40.0f);
 	}
 
 	private void ThrowBall() {
-		actualBall.GetComponent<Rigidbody>().AddForce(anchor.transform.forward * 90, ForceMode.Acceleration);
+		actualBall.GetComponent<Rigidbody>().AddForce(anchor.transform.forward * throwForce, ForceMode.Impulse);
 		actualBall.GetComponent<Rigidbody>().useGravity = true;
 		actualBall.transform.parent = null;
 		actualBall = null;
+		GeneratingBall = false;
 	}
 
 

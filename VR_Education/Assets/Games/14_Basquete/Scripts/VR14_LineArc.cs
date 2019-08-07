@@ -9,7 +9,7 @@ public class VR14_LineArc:MonoBehaviour {
 
 
 	private float radianAngles;
-	private float angle, InitialY, g, vel = 100;
+	private float angle, InitialY, g, vel = 70;
 	private int pointsCount = 10;
 
 
@@ -42,6 +42,7 @@ public class VR14_LineArc:MonoBehaviour {
 		for (int i = 0; i <= pointsCount; i++) {
 			float t = (float)i / (float)pointsCount;
 			arcArray[i] = CalculateArcPoint(t, maxDistance);
+			//if (i != 0) arcArray[i].z = -arcArray[i].z;
 		}
 
 
@@ -52,6 +53,7 @@ public class VR14_LineArc:MonoBehaviour {
 		float x = t * maxDistance;
 		float y = InitialY + x * Mathf.Tan(radianAngles) - ((g * x * x) / (2 * vel * vel * Mathf.Cos(radianAngles) * Mathf.Cos(radianAngles)));
 
+		x += (VR14_GameManager.instance.anchor.transform.position.z - 1); //Calibrando
 		return new Vector3(0, y, x);
 	}
 
