@@ -14,7 +14,9 @@ public class VRInput {
 		return OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
 	}
 
-
+	public static Vector2 Axes() {
+		return OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
+	}
 
 
 
