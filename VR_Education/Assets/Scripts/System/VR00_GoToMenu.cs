@@ -36,7 +36,7 @@ public class VR00_GoToMenu:MonoBehaviour {
 			timer += Time.deltaTime;
 			slider.Angle = Regrade3();
 
-			if (timer > 3.0f)
+			if (timer > 2.0f)
 				LoadMenu();
 		}
 		if (OVRInput.GetUp(OVRInput.Button.Back) || Input.GetKeyUp(KeyCode.Escape)) {
