@@ -7,6 +7,8 @@ TagManager:
   - ParedeSanguinea
   - Virus
   - Wall
+  - Ground
+  - Hand
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - PostProcessing
+  - LiquidEffectLayer
   - 
   - 
   - Category
