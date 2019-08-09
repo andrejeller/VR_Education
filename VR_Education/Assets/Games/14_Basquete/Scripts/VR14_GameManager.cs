@@ -35,7 +35,7 @@ public class VR14_GameManager:MonoBehaviour {
 	private void GenerateBall() {
 		GeneratingBall = true;
 		actualBall = Instantiate(ballPrefab, anchor.transform);
-		actualBall.transform.localPosition = new Vector3(0, 0, 40.0f);
+		actualBall.transform.localPosition = new Vector3(0, 0, 10.0f);
 	}
 
 	private void ThrowBall() {
