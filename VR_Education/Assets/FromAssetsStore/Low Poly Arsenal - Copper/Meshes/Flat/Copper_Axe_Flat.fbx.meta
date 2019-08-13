@@ -1,58 +1,17 @@
 fileFormatVersion: 2
-guid: c026884e9da3f594ea7569a5edf4e8b8
+guid: 93e47479779f67842a140d7ab8cd7366
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: mesh1668369009
-    100002: mesh2000565681
-    100004: mesh2123377016
-    100006: mesh31826373
-    100008: mesh72371224
-    100010: mesh853638757
-    100012: mesh993748757
-    100014: //RootNode
-    400000: mesh1668369009
-    400002: mesh2000565681
-    400004: mesh2123377016
-    400006: mesh31826373
-    400008: mesh72371224
-    400010: mesh853638757
-    400012: mesh993748757
-    400014: //RootNode
-    2100000: mat17
-    2100002: mat9
-    2100004: mat23
-    2100006: mesh1668369009Mat
-    2100008: mesh2000565681Mat
-    2100010: mesh2123377016Mat
-    2100012: mesh31826373Mat
-    2100014: mesh72371224Mat
-    2100016: mesh853638757Mat
-    2100018: mesh993748757Mat
-    2300000: mesh1668369009
-    2300002: mesh2000565681
-    2300004: mesh2123377016
-    2300006: mesh31826373
-    2300008: mesh72371224
-    2300010: mesh853638757
-    2300012: mesh993748757
-    3300000: mesh1668369009
-    3300002: mesh2000565681
-    3300004: mesh2123377016
-    3300006: mesh31826373
-    3300008: mesh72371224
-    3300010: mesh853638757
-    3300012: mesh993748757
-    4300000: mesh1668369009
-    4300002: mesh2000565681
-    4300004: mesh2123377016
-    4300006: mesh31826373
-    4300008: mesh72371224
-    4300010: mesh853638757
-    4300012: mesh993748757
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Copper
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Axe_Copper_Flat
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -84,10 +43,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -100,7 +59,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
@@ -108,7 +67,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -122,6 +81,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
