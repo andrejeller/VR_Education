@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class VR20_Arrow : MonoBehaviour {
 
-	private void OnCollisionEnter(Collision collision) {
-		if (collision.gameObject.tag == "Wall") {
+	private void OnCollisionEnter(Collision other) {
+		if (other.gameObject.tag == "Wall") {
 			Destroy(gameObject);
 		}
 	}
-
 }
