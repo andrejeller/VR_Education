@@ -27,6 +27,6 @@ public class VRInput {
 	}
 
 	public static bool aBotaoTesteUp() {
-		return Input.GetKeyDown(KeyCode.A);
+		return Input.GetKeyUp(KeyCode.A);
 	}
 }
