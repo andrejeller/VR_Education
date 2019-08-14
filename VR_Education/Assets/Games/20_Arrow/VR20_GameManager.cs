@@ -12,7 +12,7 @@ public class VR20_GameManager : MonoBehaviour {
 	private Vector3 wind;
 	private bool GeneratingArrow = false;
 	private GameObject actualArrow;
-	private float throwForce = 160;
+	private float throwForce = 210;
 
 	void Update () {
 		if (!GeneratingArrow && (VRInput.TriggerDown() || VRInput.aBotaoTesteDown())) {
