@@ -17,7 +17,10 @@ public class VR14_GameManager:MonoBehaviour {
 	public bool HandOnShelf = false;
 	private bool GeneratingBall = false;
 
+
+
 	private float throwForce = 4000; //90
+	private List<GameObject> ballsToDelete = new List<GameObject>();
 
 	void Update() {
 
@@ -36,6 +39,10 @@ public class VR14_GameManager:MonoBehaviour {
 		GeneratingBall = true;
 		actualBall = Instantiate(ballPrefab, anchor.transform);
 		actualBall.transform.localPosition = new Vector3(0, 0, 10.0f);
+		if (ballsToDelete.Count > 25)
+			ballsToDelete.RemoveAt(0);
+
+		ballsToDelete.Add(actualBall);
 	}
 
 	private void ThrowBall() {
@@ -47,5 +54,7 @@ public class VR14_GameManager:MonoBehaviour {
 	}
 
 
+	public void FireWorks() {
 
+	}
 }

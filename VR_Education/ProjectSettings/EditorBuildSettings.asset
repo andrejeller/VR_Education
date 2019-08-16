@@ -32,13 +32,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/09_Portugues.unity
     guid: 8b51d041297c4e14ea0fd3c3a6a9c6b4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/14_Basquete.unity
     guid: 6bcb30312209a1247939fae6d4ce22d1
   - enabled: 0
     path: Assets/Scenes/16_Zoo.unity
     guid: 46a8e9d43db77954197fe78709b7a43b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/17_Aquario.unity
     guid: 9170a627d9faf4a4789b4072fe66b784
   - enabled: 0
