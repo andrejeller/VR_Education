@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Ground
   - Hand
+  - Target
   layers:
   - Default
   - TransparentFX
