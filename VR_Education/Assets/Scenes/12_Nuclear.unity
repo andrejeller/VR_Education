@@ -164,6 +164,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.028143518
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 90c62680ddccb0d4f868fb4baf534095, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c62680ddccb0d4f868fb4baf534095, type: 3}
   m_IsPrefabAsset: 0
@@ -333,15 +337,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -19.8
+      value: 15.2
       objectReference: {fileID: 0}
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.31
+      value: -13.1
       objectReference: {fileID: 0}
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 254.3
+      value: 249.2
       objectReference: {fileID: 0}
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -365,15 +369,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 6.5131416
+      value: 14.706022
       objectReference: {fileID: 0}
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 6.513139
+      value: 14.706016
       objectReference: {fileID: 0}
     - target: {fileID: 4514668194307512, guid: 49e407436c9262b4997c907e1ee6d35d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 6.5131416
+      value: 14.706022
       objectReference: {fileID: 0}
     - target: {fileID: 114619890487219256, guid: 49e407436c9262b4997c907e1ee6d35d,
         type: 2}
@@ -554,6 +558,10 @@ Prefab:
       propertyPath: m_Name
       value: nucle
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 90c62680ddccb0d4f868fb4baf534095, type: 3}
+      propertyPath: m_TagString
+      value: Grabable Special
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c62680ddccb0d4f868fb4baf534095, type: 3}
   m_IsPrefabAsset: 0
@@ -660,6 +668,7 @@ MonoBehaviour:
   antenabody: {fileID: 678918749}
   playerPlane: {fileID: 84070248}
   player: {fileID: 2122071882}
+  playeratomgun: {fileID: 1140545124}
 --- !u!136 &211660307
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5910,6 +5919,35 @@ MonoBehaviour:
   - {fileID: 1876493417}
   - {fileID: 1603452891}
   spd: 266
+--- !u!114 &1111320420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111320416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6592fe47692505444b3460bdb876a772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2122071882}
+  destroy: 0
+  playeratomgun: {fileID: 1140545124}
+  explosion: {fileID: 1207338616}
+  part1: {fileID: 672717959}
+  part2: {fileID: 1537399498}
+--- !u!65 &1111320421
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111320416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.86, y: 6.39, z: 5.37}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1140545124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 90c62680ddccb0d4f868fb4baf534095,

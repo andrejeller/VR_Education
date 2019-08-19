@@ -53,10 +53,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4981836343860150}
-  - component: {fileID: 95623153809450190}
   - component: {fileID: 114047046846491494}
   - component: {fileID: 135561873428634292}
   - component: {fileID: 54497677882785740}
+  - component: {fileID: 114960205573236154}
   m_Layer: 0
   m_Name: atom shot
   m_TagString: Untagged
@@ -422,26 +422,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!95 &95623153809450190
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1110683888452012}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 90c62680ddccb0d4f868fb4baf534095, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114047046846491494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -459,6 +441,17 @@ MonoBehaviour:
   - {fileID: 1426146371176172}
   - {fileID: 1101151724480948}
   spd: 266
+--- !u!114 &114960205573236154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1110683888452012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435650b16e909b74593199adc25976e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135561873428634292
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -466,7 +459,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1110683888452012}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 3.96
