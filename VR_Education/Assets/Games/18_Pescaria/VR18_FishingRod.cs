@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class VR18_FishingRod : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	private void OnCollisionEnter(Collision other) {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }
