@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VR12_Bulletscr : MonoBehaviour {
+public class VR12_Bulletscr : MonoBehaviour
+{
+    // Use this for initialization
+    void Start()
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
 
-		transform.localScale = Vector3.one * (transform.localScale.x+ 0.005f);
+    // Update is called once per frame
+    void Update()
+    {
+        transform.localScale = Vector3.one * (transform.localScale.x + 0.01f);
+        GetComponent<Rigidbody>().AddForce(10 * transform.forward);
     }
 
 
@@ -21,11 +23,21 @@ public class VR12_Bulletscr : MonoBehaviour {
         if (other.gameObject.tag == "Grabable Special")
         {
             var b = other.GetComponent<VR12_BigNuclearSCR>();
-            if(b.destroy == false)
+            if (b.destroy == false)
             {
                 Destroy(gameObject);
                 b.destroy = true;
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Hand")
+        {
+            Destroy(gameObject);
+
+
         }
     }
 }

@@ -66,6 +66,8 @@ public class VR12_BombDrop : MonoBehaviour {
                     player.transform.rotation = Quaternion.identity;
                     player.transform.Rotate(0f, 90f, 0f);
                     playeratomgun.SetActive(true);
+                    warningSign.SetActive(false);
+                    arrow.SetActive(false);
                     //explosion.SetActive(true);
                     //bombBody.GetComponent<MeshRenderer>().enabled = false;
                     //antenabody.GetComponent<MeshRenderer>().enabled = false;
