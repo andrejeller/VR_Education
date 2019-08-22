@@ -10,76 +10,106 @@ public class VR18_TheFish:MonoBehaviour {
 	public EndOfPathInstruction endOfPathInstruction;
 	public float speed = 25;
 	float distanceTravelled;
-	bool rotateNow = true;
-	bool follow = false;
-	bool snap = false;
+
+	bool follow = false, fisgou = false, soltou = false;
+
+	private float lastTime;
 
 
 	void OnPathChanged() {
 		distanceTravelled = pathCreator.path.GetClosestDistanceAlongPath(transform.position);
 	}
-
 	public VR18_TheFish SetPathCreator(PathCreator pCreator) {
 		pathCreator = pCreator;
+		pathCreator.pathUpdated += OnPathChanged;
+		distanceTravelled = transform.position.z;
 		return this;
 	}
-
 	private void Start() {
 		if (pathCreator != null) {
 			// Subscribed to the pathUpdated event so that we're notified if the path changes during the game
 			pathCreator.pathUpdated += OnPathChanged;
 			distanceTravelled = transform.position.z;
 		}
+		lastTime = Time.time;
 	}
 
 
 	void Update() {
 
 
+		if (fisgou && !soltou) {
+			if (VRInput.TriggerDown()) {
+				//fisgou = false;
+				soltou = true;
+				VR18_GameManager.instance.theresAFish = false;
+			}
+
+			return;
+		}
+		else if (fisgou && soltou) {
+			//gravidade
+			transform.parent = null;
+			GetComponent<Rigidbody>().useGravity = true;
+		}
+
+
+
+
 
 		if (VR18_GameManager.instance.inWater) {
 
-			//COMECA IENUMERATOR PARA SEGURAR O SCRIPT - COUNTDWON para rand de novo
+			//cooldown do rand
+			if (Time.time - lastTime > 4.0f) {
+				lastTime = Time.time;
 
-			//Porcentagem de chance de persegir 
-			int rand = Random.Range(0, 4);
-			if (rand == 0) follow = true;
+				int rand = Random.Range(0, 4);
+				if (rand == 0) follow = true;
+			}
 
-			if (follow && !snap && Vector3.Distance(transform.position, VR18_GameManager.instance.pontaPos) > 3.0f) {
+			//minha vez de seguir?
+			if (distance() > 0.5f && distance() < 3.0f) {
 				transform.LookAt(VR18_GameManager.instance.pontaPos);
-				transform.position += transform.forward * 0.3f;
+				if (follow && !fisgou) {
+					transform.position += transform.forward * 0.03f;
+				}
 			}
-			if (Vector3.Distance(transform.position, VR18_GameManager.instance.pontaPos) < 1.0f && VRInput.aBotaoTesteDown()) {
-				//if chegou perto da vara, gruda
+
+			//if esta perto da vara e foi apertado o botao, gruda
+			if (distance() < 0.6f && VRInput.TriggerDown() && !VR18_GameManager.instance.theresAFish) {
 				transform.parent = VR18_GameManager.instance.ponta.transform;
-				snap = true;
+				fisgou = true; soltou = false;
+				GetComponent<CharacterController>().enabled = false;
+
+				VR18_GameManager.instance.theresAFish = true;
 			}
-			if (VRInput.TriggerUp()) snap = false;
 
 
 		} //ver y para impedir 
-		else if (!follow && !snap && transform.position.y < 0) {
-			if (pathCreator != null) {
-				distanceTravelled += speed * Time.deltaTime;
-				Vector3 pos = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);
-				Vector3 rot = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction).eulerAngles;
 
-				transform.position = new Vector3(pos.x, pos.y - 0.8f, pos.z);
-				transform.rotation = Quaternion.Euler(new Vector3(rot.x, rot.y, rot.z));
-			}
+		/*else if*/
+		if (!follow && !fisgou && transform.position.y < 0 && pathCreator != null && distance() >= 3.0f) {
+
+			distanceTravelled += speed * Time.deltaTime;
+			Vector3 pos = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);
+			Vector3 rot = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction).eulerAngles;
+
+			transform.position = new Vector3(pos.x, pos.y - 0.8f, pos.z);
+			transform.rotation = Quaternion.Euler(new Vector3(rot.x, rot.y, rot.z));
+
 		}
+
 
 
 	}
 
-	private IEnumerator YEAH() {
+	private void OnCollisionExit(Collision collision) {
+		if (collision.gameObject.tag == "Ground" && GetComponent<Rigidbody>().useGravity)
+			Destroy(gameObject);
+	}
 
-		yield return new WaitForSeconds(3.4f);
-
-
-
-
-		yield return null;
+	private float distance() {
+		return Vector3.Distance(transform.position, VR18_GameManager.instance.pontaPos);
 	}
 
 }
