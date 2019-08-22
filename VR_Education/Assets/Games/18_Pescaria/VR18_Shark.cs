@@ -27,7 +27,7 @@ public class VR18_Shark : MonoBehaviour {
 			Vector3 rot = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction).eulerAngles;
 
 			transform.position = new Vector3(pos.x, pos.y, pos.z);
-			transform.rotation = Quaternion.Euler(new Vector3(rot.x, rot.y, rot.y));
+			transform.rotation = Quaternion.Euler(new Vector3(rot.x, rot.y, rot.z));
 		}
 	}
 
