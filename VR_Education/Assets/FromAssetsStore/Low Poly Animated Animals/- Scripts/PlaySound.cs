@@ -18,12 +18,18 @@ namespace LowPolyAnimalPack
     private AudioClip death;
     [SerializeField]
     private AudioClip sleeping;
+    [SerializeField]
+    private AudioSource AudioSource;
 
     void AnimalSound()
     {
       if (animalSound)
       {
-        AudioManager.PlaySound(animalSound, transform.position);
+        //AudioManager.PlaySound(animalSound, transform.position);
+        AudioSource.PlayOneShot(animalSound);
+                //randomize
+                //Random.Range(10, 100);
+                //AudioSource.PlayClipAtPoint(animalSound, )
       }
     }
 
@@ -31,7 +37,8 @@ namespace LowPolyAnimalPack
     {
       if (walking)
       {
-        AudioManager.PlaySound(walking, transform.position);
+        //AudioManager.PlaySound(walking, transform.position);
+        AudioSource.PlayOneShot(walking);
       }
     }
 
@@ -39,7 +46,8 @@ namespace LowPolyAnimalPack
     {
       if (eating)
       {
-        AudioManager.PlaySound(eating, transform.position);
+        //AudioManager.PlaySound(eating, transform.position);
+        AudioSource.PlayOneShot(eating);
       }
     }
 
@@ -47,7 +55,8 @@ namespace LowPolyAnimalPack
     {
       if (running)
       {
-        AudioManager.PlaySound(running, transform.position);
+        //AudioManager.PlaySound(running, transform.position);
+        AudioSource.PlayOneShot(running);
       }
     }
 
@@ -55,7 +64,8 @@ namespace LowPolyAnimalPack
     {
       if (attacking)
       {
-        AudioManager.PlaySound(attacking, transform.position);
+        //AudioManager.PlaySound(attacking, transform.position);
+        AudioSource.PlayOneShot(attacking);
       }
     }
 
@@ -63,7 +73,8 @@ namespace LowPolyAnimalPack
     {
       if (death)
       {
-        AudioManager.PlaySound(death, transform.position);
+        //AudioManager.PlaySound(death, transform.position);
+        AudioSource.PlayOneShot(death);
       }
     }
 
@@ -71,7 +82,8 @@ namespace LowPolyAnimalPack
     {
       if (sleeping)
       {
-        AudioManager.PlaySound(sleeping, transform.position);
+        //AudioManager.PlaySound(sleeping, transform.position);
+        AudioSource.PlayOneShot(sleeping);
       }
     }
   }

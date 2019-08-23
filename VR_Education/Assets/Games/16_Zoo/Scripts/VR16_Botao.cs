@@ -8,6 +8,7 @@ public class VR16_Botao : MonoBehaviour, IInteractable {
 
 
 	public AudioClip animalSound;
+    public AudioSource AudioSource;
 	public Animator[] anim;
 	
 
@@ -18,7 +19,18 @@ public class VR16_Botao : MonoBehaviour, IInteractable {
 
 	public IEnumerable OnPointerExit() {
 		transform.DOScale(new Vector3(2, 40, 200), 0.2f);
-		yield return null;
+
+        //VR16_GameManager.instance.Play(animalSound);
+        AudioSource.PlayOneShot(animalSound);
+        for (int i = 0; i < anim.Length; i++)
+            anim[i].SetBool("isDead", true);
+
+        yield return new WaitForSeconds(3.0f);
+
+        for (int i = 0; i < anim.Length; i++)
+            anim[i].SetBool("isDead", false);
+
+        yield return null;
 	}
 
 	public IEnumerable OnTriggerPress() {
