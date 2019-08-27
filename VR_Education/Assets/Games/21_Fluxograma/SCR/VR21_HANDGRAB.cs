@@ -6,9 +6,8 @@ public class VR21_HANDGRAB : MonoBehaviour {
     public GameObject grabbedobj;
     public bool canGrab;
     public bool grabbed;
-    private float profundidade;
-    private Quaternion rotacaoobj;
-
+    public GameObject referenceposition;
+    private GameObject actualreference;
     // Use this for initialization
     void Start () {
         canGrab = false;
@@ -20,14 +19,13 @@ public class VR21_HANDGRAB : MonoBehaviour {
 
         if (grabbed)
         {
-            grabbedobj.transform.position = new Vector3(grabbedobj.transform.position.x, grabbedobj.transform.position.y, profundidade);
-            transform.rotation = rotacaoobj;
+            grabbedobj.transform.position = new Vector3(actualreference.transform.position.x, actualreference.transform.position.y, grabbedobj.transform.position.z);
+            
         }
 
         if (!OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) && grabbedobj != null)
         {
-            profundidade = 0f;
-            grabbedobj.transform.SetParent(null);
+            Destroy(actualreference);
             grabbed = false;
             grabbedobj = null;
         }
@@ -52,9 +50,11 @@ public class VR21_HANDGRAB : MonoBehaviour {
 
         if (canGrab && OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
-            profundidade = other.transform.position.z;
-            rotacaoobj = other.transform.transform.rotation;
-            other.transform.SetParent(transform);
+            actualreference = Instantiate(referenceposition,other.transform.position,Quaternion.identity);
+            actualreference.transform.SetParent(transform);
+            
+            
+            //other.transform.SetParent(transform);
             canGrab = false;
             grabbed = true;
             grabbedobj = other.gameObject;
