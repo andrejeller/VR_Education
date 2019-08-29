@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/08_Estagio.unity
     guid: df3c2bfa04373d24fb4b2c6db502f53d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/09_Portugues.unity
     guid: 8b51d041297c4e14ea0fd3c3a6a9c6b4
   - enabled: 0
@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/22_Daltonismo.unity
     guid: fab2609bbbcc4f84590700cd10b2c4fc
+  - enabled: 1
+    path: Assets/Scenes/23_PopCorn.unity
+    guid: 1ab67bbcb4c3afc44aa7616792137435
   m_configObjects: {}
