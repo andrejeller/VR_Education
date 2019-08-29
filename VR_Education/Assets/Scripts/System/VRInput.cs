@@ -29,4 +29,11 @@ public class VRInput {
 	public static bool aBotaoTesteUp() {
 		return Input.GetKeyUp(KeyCode.A);
 	}
+	public static bool sBotaoTesteDown() {
+		return Input.GetKeyDown(KeyCode.S);
+	}
+
+	public static bool sBotaoTesteUp() {
+		return Input.GetKeyUp(KeyCode.S);
+	}
 }

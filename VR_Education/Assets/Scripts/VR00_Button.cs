@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class VR00_Button : MonoBehaviour, IInteractable {
 
 	public int buttonID;
 
 	public void ClickMe() {
-		SceneLoader.instance.Load(buttonID);
+		SceneManager.LoadScene(buttonID);
+		//SceneLoader.instance.Load(buttonID);
 	}
 
 	public IEnumerable OnPointerOver() {

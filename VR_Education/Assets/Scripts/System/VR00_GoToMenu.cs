@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI.Extensions;
+
 
 public class VR00_GoToMenu:MonoBehaviour {
 	public static VR00_GoToMenu instance;
@@ -9,8 +11,6 @@ public class VR00_GoToMenu:MonoBehaviour {
 	private float timer = 0;
 	public GameObject panel;
 	public RadialSlider slider;
-
-
 
 	private void Awake() {
 
@@ -36,7 +36,7 @@ public class VR00_GoToMenu:MonoBehaviour {
 			timer += Time.deltaTime;
 			slider.Angle = Regrade3();
 
-			if (timer > 2.0f)
+			if (timer > 1.5f)
 				LoadMenu();
 		}
 		if (OVRInput.GetUp(OVRInput.Button.Back) || Input.GetKeyUp(KeyCode.Escape)) {
@@ -48,7 +48,8 @@ public class VR00_GoToMenu:MonoBehaviour {
 	private void LoadMenu() {
 		panel.SetActive(false);
 		timer = 0;
-		SceneLoader.instance.Load(0);
+		SceneManager.LoadScene(0);
+		//SceneLoader.instance.Load(0);
 	}
 
 	private void ShowPanel() {
@@ -61,6 +62,6 @@ public class VR00_GoToMenu:MonoBehaviour {
 	}
 
 	private float Regrade3() {
-		return ((timer * 360) / 3);
+		return ((timer * 360) / 1.5f);
 	}
 }
