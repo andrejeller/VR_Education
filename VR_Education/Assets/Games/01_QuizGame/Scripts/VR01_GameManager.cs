@@ -98,6 +98,5 @@ public class VR01_GameManager:MonoBehaviour {
 	public static Stream GenerateStreamFromString(string s) {
 		return new MemoryStream(Encoding.UTF8.GetBytes(s));
 	}
-
-
+	
 }

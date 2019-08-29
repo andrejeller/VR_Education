@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="utf-8"?>
 <VR09_Palavra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Word>Abacaxi</Word>
   <Word>Elefante</Word>
@@ -6,6 +6,6 @@
   <Word>Quadro</Word>
   <Word>Cadeira</Word>
   <Word>Computador</Word>
-  <Word>Orelhão</Word>
+  <Word>OrelhÃ£o</Word>
   
 </VR09_Palavra>
