@@ -7,13 +7,13 @@ public class VR25_Control : MonoBehaviour
 {
     public GameObject currentOBJ;
     public Text textobj;
-    private List<GameObject> listinha;
+    
     private float alphaTextColor;
     private Vector3 colors;
     // Use this for initialization
     void Start()
     {
-        listinha = new List<GameObject>();
+      
     }
 
     // Update is called once per frame
@@ -24,7 +24,20 @@ public class VR25_Control : MonoBehaviour
             currentOBJ.GetComponent<MeshRenderer>().enabled = true;
             textobj.text = currentOBJ.name;
             alphaTextColor = 1f;
-            listinha.Add(currentOBJ);
+           
+            var a = currentOBJ.GetComponent<VR25_Color>().corzinha;
+            colors = new Vector3(a.r, a.g, a.b);
+
+            currentOBJ = null;
+        }
+
+
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) && currentOBJ != null)
+        {
+            currentOBJ.GetComponent<MeshRenderer>().enabled = true;
+            textobj.text = currentOBJ.name;
+            alphaTextColor = 1f;
+            
             var a = currentOBJ.GetComponent<VR25_Color>().corzinha;
             colors = new Vector3(a.r, a.g, a.b);
 
@@ -39,9 +52,11 @@ public class VR25_Control : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (currentOBJ == null && listinha.Contains(other.gameObject) == false)
+        Debug.Log("BATI EM ALGO EM");
+        if (currentOBJ == null)
         {
             currentOBJ = other.gameObject;
+            Debug.Log("AE FUNCIONO EU ACHO");
         }
     }
     private void OnTriggerExit(Collider other)

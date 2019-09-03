@@ -10,9 +10,10 @@ public class VR25_LookAtCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+//
         var b = Quaternion.identity;
         var a = playerhead.transform.localRotation;
-        b.z = a.y;
+        b.y = a.y;
         //transform.Rotate(new Vector3(0f, 0f,  playerhead.transform.rotation.y),Space.Self);
         transform.localRotation = b;
 	}
