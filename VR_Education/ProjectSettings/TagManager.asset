@@ -10,6 +10,7 @@ TagManager:
   - Ground
   - Hand
   - Target
+  - Fogo
   layers:
   - Default
   - TransparentFX
