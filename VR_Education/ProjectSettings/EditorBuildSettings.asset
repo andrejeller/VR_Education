@@ -41,7 +41,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/21_Fluxograma.unity
     guid: bee0aea944aec174dae9daeca8ccd3f3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/25_Costelacoes.unity
     guid: a38dd09364aa4904b9e380eb87cd7dd9
+  - enabled: 1
+    path: Assets/Scenes/26_Historia.unity
+    guid: 9659385a3143ecb40823ea53899de23e
   m_configObjects: {}
