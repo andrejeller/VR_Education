@@ -11,9 +11,14 @@ public class VR23_PopCorn:MonoBehaviour {
 	private bool boom = false;
 
 	void Start() {
+		UNPop();
+	}
+
+	public void UNPop() {
 		pipoca.SetActive(false);
 		milho.SetActive(true);
 		timeInside = 0.0f;
+		boom = false;
 	}
 
 	private void OnTriggerEnter(Collider other) {
