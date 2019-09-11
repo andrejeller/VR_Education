@@ -11,6 +11,10 @@ using System.Xml.Serialization;
 public class VR01_GameManager:MonoBehaviour {
 
 	public static VR01_GameManager instance;
+	private void Awake() {
+		if (instance == null) instance = this;
+		else Destroy(gameObject);
+	}
 
 	public TextMeshProUGUI txt_Question;
 	public TextMeshProUGUI txt_Awnser0;
@@ -24,12 +28,6 @@ public class VR01_GameManager:MonoBehaviour {
 	private int ActualCorrectAwnser = 0;
 	private int ActualQuestion = 0;
 	public VR01_AnswersPanels answersPanels;
-
-
-	private void Awake() {
-		if (instance == null) instance = this;
-		else Destroy(gameObject);
-	}
 
 	private IEnumerator Start() {
 		//DEBUG.dbg.Update("Init Game manager");
