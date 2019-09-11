@@ -145,7 +145,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1117225221183338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.96, z: 3.56}
+  m_LocalPosition: {x: 0, y: 2.04, z: 3.56}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 224087161285982194}
@@ -385,6 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: {fileID: 114542135908473132}
   myMaterial: {fileID: 23208859872614562}
+  explosion: {fileID: 1553827796238916, guid: 27529ae3c171c684ca0fb8d160ea5404, type: 2}
 --- !u!222 &222014660033125126
 CanvasRenderer:
   m_ObjectHideFlags: 1
