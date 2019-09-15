@@ -11,6 +11,7 @@ ModelImporter:
     400004: default
     2100000: _STL_BINARY_Mat
     2100002: DefaultMaterial
+    2100004: defaultMat
     2300000: <STL_BINARY>
     2300002: default
     3300000: <STL_BINARY>
