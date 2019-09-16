@@ -7,7 +7,8 @@ public class VR27_CellComp : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         transform.GetComponent<LineRenderer>().SetPosition(0, transform.position);
-	}
+        transform.GetComponent<LineRenderer>().SetPosition(1, transform.position);
+    }
 	
 	// Update is called once per frame
 	void Update () {
