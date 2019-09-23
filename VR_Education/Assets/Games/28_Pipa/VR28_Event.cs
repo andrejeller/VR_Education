@@ -7,7 +7,7 @@ public class VR28_Event : MonoBehaviour {
     public GameObject lamp0;
     public GameObject lamp1;
     public GameObject thunderSprite;
-
+    public GameObject[] lamps;
     // Use this for initialization
     void Start () {
 		
@@ -26,10 +26,18 @@ public class VR28_Event : MonoBehaviour {
         if (currentTime < 0)
         {
             thunderSprite.SetActive(true);
+            for(int i =0; i<lamps.Length; i++)
+            {
+                lamps[i].SetActive(true);
+            }
         }
         else
         {
             thunderSprite.SetActive(false);
+            for (int i = 0; i < lamps.Length; i++)
+            {
+                lamps[i].SetActive(false);
+            }
         }
     }
 	
