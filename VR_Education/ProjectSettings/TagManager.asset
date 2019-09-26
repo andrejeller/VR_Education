@@ -4,13 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ParedeSanguinea
-  - Virus
-  - Wall
-  - Ground
   - Hand
-  - Target
-  - Fogo
+  - Grabable
+  - Hammer
+  - Hammer Toy
+  - Grabable Special
   layers:
   - Default
   - TransparentFX

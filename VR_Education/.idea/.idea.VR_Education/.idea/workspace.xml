@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb4301ed-34f5-43f2-80e3-cf23d0abb50b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Education/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Education/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Education/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Education/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_Hand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_Hand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_PianoKeyScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_PianoKeyScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Editor/PermissionsDemoBuildProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Editor/PermissionsDemoBuildProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/CubeRoom.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/CubeRoom.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/CubeRoom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/CubeRoom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/CubeRoom_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/CubeRoom_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/Materials/CubeRoomEnvMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Environment/Materials/CubeRoomEnvMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/HelloVR_AppTile_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/HelloVR_AppTile_bg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/HelloVR_AppTile_front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/HelloVR_AppTile_front.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/HelloVR_Splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/HelloVR_Splash.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/hollowknob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/hollowknob.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/ic_pause_white_72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/ic_pause_white_72.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/ic_play_arrow_white_72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/ic_play_arrow_white_72.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/ic_volume_up_white_48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/ic_volume_up_white_48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/loading_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/VideoDemo/loading_bg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/ic_launcher_hello_vr_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/ic_launcher_hello_vr_round.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/logo_hello_vr_108px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Images/logo_hello_vr_108px.svg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/IcosahedronBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/IcosahedronBlue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/IcosahedronPink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/IcosahedronPink.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/QuadSphereBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/QuadSphereBlue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/QuadSpherePink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/QuadSpherePink.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/SafetyRing.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/SafetyRing.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/TriSphereBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/TriSphereBlue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/TriSpherePink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Materials/HelloVR/TriSpherePink.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/Icosahedron.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/Icosahedron.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/QuadSphere.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/QuadSphere.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/SafetyRing_1m.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/SafetyRing_1m.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/TriSphere.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Models/HelloVR/TriSphere.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/DemoInputManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/DemoInputManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/DemoSceneManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/DemoSceneManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/Keyboard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/Keyboard/KeyboardDelegateExample.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/Keyboard/KeyboardDelegateExample.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/VideoDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/VideoDemo/MenuBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/VideoDemo/MenuBar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/VideoDemo/VideoControls.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Prefabs/VideoDemo/VideoControls.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/HelloVR.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/HelloVR.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/KeyboardDemo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/KeyboardDemo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/PermissionsDemo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/PermissionsDemo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/VideoDemo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scenes/VideoDemo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/HeadsetDemoManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/HeadsetDemoManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/HelloVRManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/HelloVRManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/KeyboardDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/KeyboardDemo/KeyboardDelegateExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/KeyboardDemo/KeyboardDelegateExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/PermissionsDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Shaders/HelloVR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Shaders/HelloVR/HelloVRUnlitGrayscaleToColor.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Shaders/HelloVR/HelloVRUnlitGrayscaleToColor.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/Icosahedron_Blue_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/Icosahedron_Blue_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/Icosahedron_Pink_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/Icosahedron_Pink_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/QuadSphere_Blue_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/QuadSphere_Blue_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/QuadSphere_Pink_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/QuadSphere_Pink_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/SafetyRing_Alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/SafetyRing_Alpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/TriSphere_Blue_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/TriSphere_Blue_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/TriSphere_Pink_BakedDiffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Demos/Textures/HelloVR/TriSphere_Pink_BakedDiffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/EventSystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/EventSystem.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrBuildProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrBuildProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrBuildProcessor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrBuildProcessor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Editor/GvrEditorSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Fonts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Fonts/Roboto-Medium.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Fonts/Roboto-Medium.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/LICENSE.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/LICENSE.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Resources/GvrAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Resources/GvrAudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Resources/GvrAudioMixer.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Resources/GvrAudioMixer.mixer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrControllerVisualManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrControllerVisualManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrControllerVisualManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrControllerVisualManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrPointerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrPointerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrPointerManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/Scripts/GvrPointerManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioRoom.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioRoom.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSoundfield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSoundfield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSoundfield.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSoundfield.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSource.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSource.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSource.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Legacy/prefabs/Audio/GvrAudioSource.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBase.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBase.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBase.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBase.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBaseTransparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBaseTransparent.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBaseTransparent.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerBaseTransparent.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerLaser.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerLaser.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerLaser.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerLaser.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerReticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerReticle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerReticle.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ControllerReticle.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ReticlePointer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ReticlePointer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ReticlePointer.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/ReticlePointer.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipFont.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipFont.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipFont.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipFont.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipImage.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipImage.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipImage.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipImage.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipSimple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipSimple.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipSimple.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/TooltipSimple.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoMono.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoMono.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoMono.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoMono.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereo.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereo.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereoInside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereoInside.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereoInside.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Materials/Video/VideoStereoInside.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Models.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Models/ddcontroller.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Models/ddcontroller.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Models/ddtooltips.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Models/ddtooltips.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Models/hemisphere_18x18.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Models/hemisphere_18x18.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Models/sphere_36x18.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Models/sphere_36x18.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-6DOF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-6DOF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-6DOF.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-6DOF.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Cardboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Cardboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Cardboard.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Cardboard.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Daydream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Daydream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Daydream.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/AndroidManifest-Daydream.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr-keyboard.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr-keyboard.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr-keyboardsupport-release.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr-keyboardsupport-release.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr-permissionsupport-release.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr-permissionsupport-release.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/gvr.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/armeabi-v7a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/armeabi-v7a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/armeabi-v7a/libaudioplugingvrunity.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/armeabi-v7a/libaudioplugingvrunity.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/x86.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/x86.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/x86/libaudioplugingvrunity.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/libs/x86/libaudioplugingvrunity.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/proguard-gvr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/proguard-gvr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/proguard-gvr.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Android/proguard-gvr.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.mm" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.mm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.mm.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/libaudioplugingvrunity.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/iOS/libaudioplugingvrunity.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/audioplugingvrunity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/audioplugingvrunity.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/instant_preview_shared.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/instant_preview_shared.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/instant_preview_unity_plugin.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/instant_preview_unity_plugin.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/libeay32.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/libeay32.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/ssleay32.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/ssleay32.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/zlib.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86/zlib.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/audioplugingvrunity.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/audioplugingvrunity.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/audioplugingvrunity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/audioplugingvrunity.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_shared.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_shared.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/instant_preview_unity_plugin.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/instant_preview_unity_plugin.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libgpr.dylib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libgpr.dylib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libgrpc++.dylib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libgrpc++.dylib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libgrpc.dylib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libgrpc.dylib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libinstant_preview_shared.dylib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libinstant_preview_shared.dylib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/instant_preview_unity_plugin.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/libaudioplugingvrunity.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/libaudioplugingvrunity.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/libeay32.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/libeay32.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/ssleay32.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/ssleay32.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/zlib.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Plugins/x86_64/zlib.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Cardboard/GvrReticlePointer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Cardboard/GvrReticlePointer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Cardboard/GvrReticlePointer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Cardboard/GvrReticlePointer.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerPointer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerPointer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerPointer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/GvrControllerPointer.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsTemplate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsTemplate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsTemplate.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsTemplate.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/GvrEditorEmulator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/GvrEditorEmulator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/GvrEditorEmulator.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/GvrEditorEmulator.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Headset/GvrHeadset.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Headset/GvrHeadset.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Headset/GvrHeadset.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Headset/GvrHeadset.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/InstantPreview/GvrInstantPreviewMain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/InstantPreview/GvrInstantPreviewMain.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/InstantPreview/GvrInstantPreviewMain.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/InstantPreview/GvrInstantPreviewMain.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardManager.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardManager.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/README" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/README.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/README.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrEditorEmulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrEditorEmulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrEditorEmulator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrEditorEmulator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Pose3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Pose3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Pose3D.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Pose3D.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/UI/GvrDropdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/UI/GvrDropdown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/UI/GvrDropdown.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/UI/GvrDropdown.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrAdditiveOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrAdditiveOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrAdditiveOverlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrAdditiveOverlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrController.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrController.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrController.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrController.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrControllerReticle.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrControllerReticle.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrControllerReticle.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrControllerReticle.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrReticleShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrReticleShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrReticleShader.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrReticleShader.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlayFont.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlayFont.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlayFont.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUIOverlayFont.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/ControllerTooltips.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/ControllerTooltips.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_grab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_grab.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_move.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_move.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_pointer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_pointer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_text.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_text.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_url.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/cursor_url.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/ddcontroller.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/ddcontroller.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/ddcontroller_transparent.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/ddcontroller_transparent.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/dropShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/dropShadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/laserTexture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/laserTexture.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Textures/roundRect_52px.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Textures/roundRect_52px.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRTest.apk" beforeDir="false" afterPath="$PROJECT_DIR$/VRTest.apk" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <folding>
+                <marker date="1562078788656" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562078788656" expanded="true" signature="118:406" ph="{...}" />
+                <marker date="1562078788656" expanded="true" signature="194:246" ph="{...}" />
+                <marker date="1562078788656" expanded="true" signature="273:298" ph="{...}" />
+                <marker date="1562078788656" expanded="true" signature="315:404" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <folding>
+                <marker date="1562088804315" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562088804315" expanded="true" signature="122:1409" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="427:453" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="505:748" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="546:609" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="645:677" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="712:745" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="780:1152" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="809:841" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1121:1149" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1198:1405" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1233:1304" ph="{...}" />
+                <marker date="1562088804315" expanded="true" signature="1311:1382" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_PianoKeyScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+              <folding>
+                <marker date="1563455268122" expanded="false" signature="6:111" ph="..." />
+                <marker date="1563455268122" expanded="true" signature="161:1572" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="354:439" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="494:624" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="498:621" ph="/* if (!canBePressed) ... */" />
+                <marker date="1563455268122" expanded="true" signature="656:758" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="804:1050" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="834:937" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="973:1047" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="1095:1210" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="1129:1207" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="1241:1570" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="1420:1565" ph="{...}" />
+                <marker date="1563455268122" expanded="true" signature="1480:1553" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_Hand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <marker date="1563455853297" expanded="false" signature="6:105" ph="..." />
+                <marker date="1563455853297" expanded="true" signature="145:666" ph="{...}" />
+                <marker date="1563455853297" expanded="true" signature="254:300" ph="{...}" />
+                <marker date="1563455853297" expanded="true" signature="354:664" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Games/03_Resistor/Script/VR03_QuizButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
+              <folding>
+                <marker date="1562069125920" expanded="false" signature="6:168" ph="..." />
+                <marker date="1562069125920" expanded="true" signature="231:2557" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="861:1437" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="1464:1485" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="1519:2267" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="1757:1844" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="1857:2256" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="2121:2244" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="2314:2388" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="2442:2449" ph="{...}" />
+                <marker date="1562069125920" expanded="true" signature="2499:2548" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_Hand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_HandGrab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EFC9AC0-0C85-4654-A5A8-EFD575CAD0AF/27/f5ac52fb/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_PianoKeyScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_chair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/03_Resistor/Script/VR03_QuizButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/03_Resistor/Script/VR03_Grabable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/VR04_chair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_chair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Xray.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_HandGrab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/13_PaintBall/VR13_GunScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/PixelCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_PixelCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_Canvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_GunScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_PianoKeyScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_Hand.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="10932">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="10932" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="10932">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="10932" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb4301ed-34f5-43f2-80e3-cf23d0abb50b" name="Default Changelist" comment="" />
+      <created>1559236738754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559236738754</updated>
+      <workItem from="1559236751615" duration="143000" />
+      <workItem from="1559236987189" duration="9253000" />
+      <workItem from="1562073521128" duration="146000" />
+      <workItem from="1562073685098" duration="13945000" />
+      <workItem from="1562597019604" duration="16804000" />
+      <workItem from="1562675620178" duration="13306000" />
+      <workItem from="1562935783702" duration="10436000" />
+      <workItem from="1563198955978" duration="8353000" />
+      <workItem from="1563280025135" duration="10208000" />
+      <workItem from="1563454530715" duration="1918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84512000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19669509" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/VR04_chair.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_WoodButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding>
+            <marker date="1562094012842" expanded="true" signature="291:298" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="353:360" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="409:684" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="452:542" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="590:681" ph="{...}" />
+            <marker date="1562094012842" expanded="true" signature="715:781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/13_PaintBall/VR13_GunScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_chair.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <marker date="1562071748563" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562071748563" expanded="true" signature="120:580" ph="{...}" />
+            <marker date="1562071748563" expanded="true" signature="204:211" ph="{...}" />
+            <marker date="1562071748563" expanded="true" signature="265:578" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Grabable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+          <folding>
+            <marker date="1562093976562" expanded="false" signature="6:157" ph="..." />
+            <marker date="1562093976562" expanded="true" signature="201:1336" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="308:348" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="372:518" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="377:512" ph="/* if (!grabbed &amp;&amp; !pinned) ... */" />
+            <marker date="1562093976562" expanded="true" signature="561:1040" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="1067:1334" ph="{...}" />
+            <marker date="1562093976562" expanded="true" signature="1256:1331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_HandGrab.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <marker date="1562086255957" expanded="false" signature="6:113" ph="..." />
+            <marker date="1562086255957" expanded="true" signature="157:1983" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="274:460" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="323:457" ph="/* teste.gameObject.transform.position = gameObject.transform.position; ... */" />
+            <marker date="1562086255957" expanded="true" signature="512:947" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="516:755" ph="/* if (Input.GetKey(&quot;right&quot;)) ... */" />
+            <marker date="1562086255957" expanded="true" signature="835:944" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="992:1714" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1058:1085" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1127:1204" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1208:1496" ph="/* if (canGrab &amp;&amp; Input.GetKey(&quot;left&quot;) &amp;&amp; grabbed==false) ... */" />
+            <marker date="1562086255957" expanded="true" signature="1565:1711" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1759:1817" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1786:1814" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1844:1870" ph="{...}" />
+            <marker date="1562086255957" expanded="true" signature="1914:1979" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_xRay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <marker date="1562087758477" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562087758477" expanded="true" signature="118:946" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="232:288" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="343:626" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="379:623" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="422:618" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="672:944" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="759:941" ph="{...}" />
+            <marker date="1562087758477" expanded="true" signature="821:937" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/03_Resistor/Script/VR03_Grabable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="53" />
+          <folding>
+            <marker date="1562069125919" expanded="false" signature="6:157" ph="..." />
+            <marker date="1562069125919" expanded="true" signature="201:3235" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="464:1726" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="606:1610" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="625:671" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="679:724" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="745:1606" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="1750:1892" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="1781:1886" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="1847:1882" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="1935:2967" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="1974:2445" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="2001:2082" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="2452:2964" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="2994:3233" ph="{...}" />
+            <marker date="1562069125919" expanded="true" signature="3039:3143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EFC9AC0-0C85-4654-A5A8-EFD575CAD0AF/27/f5ac52fb/Texture2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="576" column="15" selection-start-line="576" selection-start-column="15" selection-end-line="576" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/PixelCanvas.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_PixelCanvas.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_Bullet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_Canvas.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/13_PaintBall/Scripts/VR13_GunScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/PianoKeyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <marker date="1562078788656" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562078788656" expanded="true" signature="118:406" ph="{...}" />
+            <marker date="1562078788656" expanded="true" signature="194:246" ph="{...}" />
+            <marker date="1562078788656" expanded="true" signature="273:298" ph="{...}" />
+            <marker date="1562078788656" expanded="true" signature="315:404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/04_CourtRoom/Scripts/VR04_SpawnObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <marker date="1562088804315" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562088804315" expanded="true" signature="122:1409" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="427:453" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="505:748" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="546:609" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="645:677" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="712:745" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="780:1152" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="809:841" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1121:1149" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1198:1405" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1233:1304" ph="{...}" />
+            <marker date="1562088804315" expanded="true" signature="1311:1382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/03_Resistor/Script/VR03_QuizButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <marker date="1562069125920" expanded="false" signature="6:168" ph="..." />
+            <marker date="1562069125920" expanded="true" signature="231:2557" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="861:1437" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="1464:1485" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="1519:2267" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="1757:1844" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="1857:2256" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="2121:2244" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="2314:2388" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="2442:2449" ph="{...}" />
+            <marker date="1562069125920" expanded="true" signature="2499:2548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_PianoKeyScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding>
+            <marker date="1563455268122" expanded="false" signature="6:111" ph="..." />
+            <marker date="1563455268122" expanded="true" signature="161:1572" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="354:439" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="494:624" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="498:621" ph="/* if (!canBePressed) ... */" />
+            <marker date="1563455268122" expanded="true" signature="656:758" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="804:1050" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="834:937" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="973:1047" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="1095:1210" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="1129:1207" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="1241:1570" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="1420:1565" ph="{...}" />
+            <marker date="1563455268122" expanded="true" signature="1480:1553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Games/10_Piano/Scripts/VR10_Hand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1563455853297" expanded="false" signature="6:105" ph="..." />
+            <marker date="1563455853297" expanded="true" signature="145:666" ph="{...}" />
+            <marker date="1563455853297" expanded="true" signature="254:300" ph="{...}" />
+            <marker date="1563455853297" expanded="true" signature="354:664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

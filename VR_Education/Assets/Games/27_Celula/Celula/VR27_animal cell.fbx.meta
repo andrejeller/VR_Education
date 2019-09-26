@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 305d1836bcbeeda48bb3a66656d3af02
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Endoplasmatic reticukum
+    100004: Golgi_Apparatus.005_ID2373
+    100006: group_4_ID2442
+    100008: Membrana Celular
+    100010: Mitochondria.041_ID2505.001
+    100012: Vacuole.006_ID1968
+    100014: Vescicle.001_ID33
+    400000: //RootNode
+    400002: Endoplasmatic reticukum
+    400004: Golgi_Apparatus.005_ID2373
+    400006: group_4_ID2442
+    400008: Membrana Celular
+    400010: Mitochondria.041_ID2505.001
+    400012: Vacuole.006_ID1968
+    400014: Vescicle.001_ID33
+    2100000: Color_D01
+    2100002: Color_I01
+    2100004: Lighter_Purple_Sponge
+    2100006: Dark_Purple_Sponge_Texture
+    2100008: Dark_Blue_Sponge
+    2100010: Material.001
+    2100012: Screen_Shot_2014-09-23_at_7.15.51_PM
+    2100014: Translucent_Glass_Blue
+    2100016: Material.002
+    2100018: __Color_D14_2
+    2100020: Color_A01
+    2100022: Material.003
+    2300000: Endoplasmatic reticukum
+    2300002: Golgi_Apparatus.005_ID2373
+    2300004: group_4_ID2442
+    2300006: Membrana Celular
+    2300008: Mitochondria.041_ID2505.001
+    2300010: Vacuole.006_ID1968
+    2300012: Vescicle.001_ID33
+    3300000: Endoplasmatic reticukum
+    3300002: Golgi_Apparatus.005_ID2373
+    3300004: group_4_ID2442
+    3300006: Membrana Celular
+    3300008: Mitochondria.041_ID2505.001
+    3300010: Vacuole.006_ID1968
+    3300012: Vescicle.001_ID33
+    4300000: Mitochondria.041_ID2505.001
+    4300002: group_4_ID2442
+    4300004: Vescicle.001_ID33
+    4300006: Endoplasmatic reticukum
+    4300008: Membrana Celular
+    4300010: Golgi_Apparatus.005_ID2373
+    4300012: Vacuole.006_ID1968
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A01
+    second: {fileID: 2100000, guid: 1db9014020e4a7646824d918e5f28c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_D01
+    second: {fileID: 2100000, guid: a504acd806a053a42a4dd012b7b78b9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_I01
+    second: {fileID: 2100000, guid: 551da555f0522c34c8a816d362babdfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Blue_Sponge
+    second: {fileID: 2100000, guid: 74b9c45974b0c194c8271aa64af021f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Purple_Sponge_Texture
+    second: {fileID: 2100000, guid: 741652e8ce3eafe4b85fd33029428548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lighter_Purple_Sponge
+    second: {fileID: 2100000, guid: 03107b6e07a9d254a9c05291a0dde662, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 129a97de9140b1b4cb57aeb3c8c47008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: ccc296bd8f59d974397501301cbaeb36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 1215c74c9c359cb4782ae7f659a48d2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen_Shot_2014-09-23_at_7.15.51_PM
+    second: {fileID: 2100000, guid: c4c399a542c0af246a86581c01df84e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Blue
+    second: {fileID: 2100000, guid: da63c525b3d1660439fb0d346e0c78d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_D14_2
+    second: {fileID: 2100000, guid: 92ee25ec95295dd4dbe533a12433f034, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5.05
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
