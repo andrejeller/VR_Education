@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VR01_Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <toAsk question="De quem é a famosa frase “Penso, logo existo”?" about="~" correctAnswer="0">
+    <answer>Descartes</answer>
+    <answer>Galileu Galilei</answer>
+    <answer>Sócrates</answer>
+    <answer>Fracis Bacon</answer>
+  </toAsk>
+
+  <toAsk question="Quantas casas decimais tem o número pi?" about="~" correctAnswer="2">
+    <answer>Duas</answer>
+    <answer>Centenas</answer>
+    <answer>Trilhares</answer>
+    <answer>Milhares</answer>
+  </toAsk>
+
+  <toAsk question="Qual o número mínimo de jogadores numa partida de futebol?" about="~" correctAnswer="3">
+    <answer>8</answer>
+    <answer>10</answer>
+    <answer>9</answer>
+    <answer>7</answer>
+  </toAsk>
+
+  <toAsk question="De onde é a invenção do chuveiro elétrico?" about="" correctAnswer="2">
+    <answer>França</answer>
+    <answer>Inglaterra</answer>
+    <answer>Brasil</answer>
+    <answer>Austrália</answer>
+  </toAsk>
+
+  <toAsk question="Quais o menor e o maior país do mundo?" about="" correctAnswer="0">
+    <answer>Vaticano e Rússia</answer>
+    <answer>Nauru e China</answer>
+    <answer>Malta e Estados Unidos</answer>
+    <answer>São Marino e Índia</answer>
+  </toAsk>
+
+  <toAsk question="Qual o nome do presidente do Brasil que ficou conhecido como Jango?" about="" correctAnswer="3">
+    <answer>Jânio Quadros</answer>
+    <answer>Jacinto Anjos</answer>
+    <answer>Getúlio Vargas</answer>
+    <answer>João Goulart</answer>
+  </toAsk>
+
+  <toAsk question="Atualmente, quantos elementos químicos a tabela periódica possui?" about="" correctAnswer="2">
+    <answer>113</answer>
+    <answer>109</answer>
+    <answer>118</answer>
+    <answer>108</answer>
+  </toAsk>
+
+  <toAsk question="O que a palavra legend significa em português?" about="" correctAnswer="1">
+    <answer>Legenda</answer>
+    <answer>Lenda</answer>
+    <answer>História</answer>
+    <answer>Legendário</answer>
+  </toAsk>
+
+  <toAsk question=" Quanto tempo a luz do Sol demora para chegar à Terra?" about="" correctAnswer="0">
+    <answer>8 minutos</answer>
+    <answer>1 dia</answer>
+    <answer>segundos</answer>
+    <answer>12 minutos</answer>
+  </toAsk>
+
+  <toAsk question="Em que período da pré-história o fogo foi descoberto?" about="" correctAnswer="1">
+    <answer>Neolítico</answer>
+    <answer>Paleolítico</answer>
+    <answer>Idade dos Metais</answer>
+    <answer>Idade Média</answer>
+  </toAsk>
+</VR01_Question>

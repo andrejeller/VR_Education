@@ -15,6 +15,7 @@ namespace Wilberforce
     {
         // public Parameters  
 		public int Type = 0;
+		private int typeID;
 
         // private Parameters
 		public Shader colorblindShader;
@@ -30,6 +31,7 @@ namespace Wilberforce
 		// initialization method
         void Start()
         {
+			typeID = Shader.PropertyToID("type");
 			// if shader is not set, try to find it first
             if (colorblindShader == null) colorblindShader = Shader.Find("Hidden/Wilberforce/Colorblind");
 
@@ -112,7 +114,7 @@ namespace Wilberforce
 
             // Shader pass
 			// bind the 'Type' attribute to 'type' variable in shader program
-			ColorblindMaterial.SetInt ("type", Type);
+			ColorblindMaterial.SetInt (typeID, Type);
 			// run the shader
 			Graphics.Blit (
 				source, // input texture

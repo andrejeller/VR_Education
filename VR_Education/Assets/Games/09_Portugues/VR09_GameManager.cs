@@ -36,7 +36,7 @@ public class VR09_GameManager:MonoBehaviour {
 		pointer.Distance = 2700.0f;
 
 		yield return new WaitForSeconds(0.5f);
-		VR09_XMLManager.instance.LoadWords();
+		VR09_XMLManager.instance.LoadXML();
 		GetNewWord();
 	}
 
