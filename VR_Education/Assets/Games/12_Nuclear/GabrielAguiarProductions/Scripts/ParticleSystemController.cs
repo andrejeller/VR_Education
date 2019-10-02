@@ -24,7 +24,7 @@ public class ParticleSystemController : MonoBehaviour {
 				ParticleSystems [i].SetActive (false);
 		}
 
-		if (GetComponent<ParticleSystem> ()) {			
+		if (GetComponent<ParticleSystem> ()) {
 			psList.Add (GetComponent<ParticleSystem> ());
 
 			foreach (Transform t in transform) {
@@ -32,7 +32,7 @@ public class ParticleSystemController : MonoBehaviour {
 					psList.Add (t.GetComponent<ParticleSystem>());
 			}
 
-			for (int i = 0; i < psList.Count; i ++) {				
+			for (int i = 0; i < psList.Count; i ++) {
 				var ps = psList[i].GetComponent<ParticleSystem> ();
 				var main = ps.main;
 				var shape = ps.shape;
@@ -50,20 +50,20 @@ public class ParticleSystemController : MonoBehaviour {
 					main.loop = loop;
 
 				//LIGHTS
-				if (!lights && psLights.enabled) 					
-					psLights.enabled = false;				
+				if (!lights && psLights.enabled)
+					psLights.enabled = false;
 
 				//TRAILS
 				if (!trails && psTrails.enabled)
-					psTrails.enabled = false;	
+					psTrails.enabled = false;
 
 				//POSITION
 				if(psList[i].transform.position.y != 0 && i > 0){
 					var newPos = psList[i].transform.position;
 					newPos.y *= size;
 					psList [i].transform.position = newPos;
-				}					
-					
+				}
+
 				//SIZE
 				if (startSize.mode == ParticleSystemCurveMode.TwoConstants) {
 					startSize.constantMax *= size;
@@ -118,10 +118,10 @@ public class ParticleSystemController : MonoBehaviour {
 				if(shape.enabled){
 					shape.radius *= size;
 				}
-			}				
+			}
 		}
 		else
 			Debug.Log("This GameObject contains no Particle System");
 	}
-		
+
 }

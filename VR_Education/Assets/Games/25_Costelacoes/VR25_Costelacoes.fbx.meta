@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: c23212ca658a9414cbb9623bea21d664
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aquarius
+    100002: Aquila
+    100004: Bootes
+    100006: Canes Venatici
+    100008: Capricornio
+    100010: Cassiopeia
+    100012: Cepheus
+    100014: Coma Berenices
+    100016: Coroa Austral
+    100018: Coroa Boreal
+    100020: //RootNode
+    100022: Cygnus
+    100024: Delphinus
+    100026: Draco
+    100028: Escorpiao
+    100030: Hercules
+    100032: Lacerta
+    100034: Libra
+    100036: Lyra
+    100038: Microscopium
+    100040: Ophiuchus
+    100042: Pegasus Andromeda
+    100044: Sagitario
+    100046: Sagitta
+    100048: Scutum
+    100050: Serpens Head
+    100052: Serpens Tail
+    100054: Triangle
+    100056: Ursa Menor
+    400000: Aquarius
+    400002: Aquila
+    400004: Bootes
+    400006: Canes Venatici
+    400008: Capricornio
+    400010: Cassiopeia
+    400012: Cepheus
+    400014: Coma Berenices
+    400016: Coroa Austral
+    400018: Coroa Boreal
+    400020: //RootNode
+    400022: Cygnus
+    400024: Delphinus
+    400026: Draco
+    400028: Escorpiao
+    400030: Hercules
+    400032: Lacerta
+    400034: Libra
+    400036: Lyra
+    400038: Microscopium
+    400040: Ophiuchus
+    400042: Pegasus Andromeda
+    400044: Sagitario
+    400046: Sagitta
+    400048: Scutum
+    400050: Serpens Head
+    400052: Serpens Tail
+    400054: Triangle
+    400056: Ursa Menor
+    2100000: Material
+    2300000: Aquarius
+    2300002: Aquila
+    2300004: Bootes
+    2300006: Canes Venatici
+    2300008: Capricornio
+    2300010: Cassiopeia
+    2300012: Cepheus
+    2300014: Coma Berenices
+    2300016: Coroa Austral
+    2300018: Coroa Boreal
+    2300020: Cygnus
+    2300022: Delphinus
+    2300024: Draco
+    2300026: Escorpiao
+    2300028: Hercules
+    2300030: Lacerta
+    2300032: Libra
+    2300034: Lyra
+    2300036: Microscopium
+    2300038: Ophiuchus
+    2300040: Pegasus Andromeda
+    2300042: Sagitario
+    2300044: Sagitta
+    2300046: Scutum
+    2300048: Serpens Head
+    2300050: Serpens Tail
+    2300052: Triangle
+    2300054: Ursa Menor
+    3300000: Aquarius
+    3300002: Aquila
+    3300004: Bootes
+    3300006: Canes Venatici
+    3300008: Capricornio
+    3300010: Cassiopeia
+    3300012: Cepheus
+    3300014: Coma Berenices
+    3300016: Coroa Austral
+    3300018: Coroa Boreal
+    3300020: Cygnus
+    3300022: Delphinus
+    3300024: Draco
+    3300026: Escorpiao
+    3300028: Hercules
+    3300030: Lacerta
+    3300032: Libra
+    3300034: Lyra
+    3300036: Microscopium
+    3300038: Ophiuchus
+    3300040: Pegasus Andromeda
+    3300042: Sagitario
+    3300044: Sagitta
+    3300046: Scutum
+    3300048: Serpens Head
+    3300050: Serpens Tail
+    3300052: Triangle
+    3300054: Ursa Menor
+    4300000: Libra
+    4300002: Coma Berenices
+    4300004: Microscopium
+    4300006: Aquarius
+    4300008: Capricornio
+    4300010: Coroa Austral
+    4300012: Sagitario
+    4300014: Scutum
+    4300016: Coroa Boreal
+    4300018: Serpens Head
+    4300020: Ophiuchus
+    4300022: Serpens Tail
+    4300024: Aquila
+    4300026: Delphinus
+    4300028: Sagitta
+    4300030: Lyra
+    4300032: Hercules
+    4300034: Bootes
+    4300036: Canes Venatici
+    4300038: Ursa Menor
+    4300040: Draco
+    4300042: Cygnus
+    4300044: Cepheus
+    4300046: Lacerta
+    4300048: Cassiopeia
+    4300050: Triangle
+    4300052: Pegasus Andromeda
+    4300054: Escorpiao
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 07f4bf298407a7a4d82c9d57bf0ae269, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
