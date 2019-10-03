@@ -5,43 +5,46 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hand
+  - Target
+  - Fogo
   - Grabable
   - Hammer
   - Hammer Toy
   - Grabable Special
+
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  -
   - Water
   - UI
-  - 
-  - 
+  -
+  -
   - PostProcessing
   - Interactable
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  -
+  -
   - PostProcessing
   - LiquidEffectLayer
-  - 
-  - 
+  -
+  -
   - Category
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0
