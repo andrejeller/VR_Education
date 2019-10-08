@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class VR29_RotatePlanet : MonoBehaviour {
+public class VR29_RotatePlanet : MonoBehaviour
+{
 
     Quaternion planetRotation;
     public float dist = 400;
@@ -18,15 +19,17 @@ public class VR29_RotatePlanet : MonoBehaviour {
     public GameObject referenceEmpty;
     public GameObject actualCreatedObj;
 
-    void Start () {
+    void Start()
+    {
         planetRotation = transform.rotation;
         _ln = playerHand.transform.GetComponent<LineRenderer>();
     }
-	
-	// Update is called once per frame
-	void Update () {
 
- 
+    // Update is called once per frame
+    void Update()
+    {
+
+
 
 
 
@@ -100,10 +103,10 @@ public class VR29_RotatePlanet : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject.tag == "Hammer")
+                if (hit.collider.gameObject.tag == "Hammer" && actualCreatedObj == null)
                 {
                     actualCreatedObj = Instantiate(referenceEmpty, hit.point, transform.rotation);
-                    
+
 
                 }
 
@@ -158,7 +161,7 @@ public class VR29_RotatePlanet : MonoBehaviour {
 
             if (Physics.Raycast(playerHand.transform.position, playerHand.transform.TransformDirection(Vector3.forward), out hit))
             {
-                if (hit.collider.gameObject.tag == "Hammer")
+                if (hit.collider.gameObject.tag == "Hammer" && actualCreatedObj ==null)
                 {
                     actualCreatedObj = Instantiate(referenceEmpty, hit.point, transform.rotation);
                 }
@@ -212,8 +215,16 @@ public class VR29_RotatePlanet : MonoBehaviour {
 
 
 
+
+
+
+
+
         transform.rotation = planetRotation;
-        dayTime = Mathf.Floor(UnityEditor.TransformUtils.GetInspectorRotation(transform).y/ divisionScale);
+        var a = transform.localRotation.eulerAngles.y - 180f;
+        
+        dayTime = Mathf.Floor(a/ divisionScale);
+        Debug.Log("angulo y raw = "+ transform.localRotation.eulerAngles.y +" calculo do a= "+ a+ " calculo do daytime= "+dayTime);
         if (dayTime == -12f) dayTime = 12f;
         textTime.text = ("Fuso Horario atual: "+dayTime+" UTC.");
     }
