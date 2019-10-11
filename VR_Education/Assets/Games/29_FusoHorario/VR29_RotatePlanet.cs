@@ -30,51 +30,6 @@ public class VR29_RotatePlanet : MonoBehaviour
     {
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         RaycastHit hito;
 
         if (Physics.Raycast(playerHand.transform.position, playerHand.transform.TransformDirection(Vector3.forward), out hito))

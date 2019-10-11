@@ -7,6 +7,7 @@ public class VR30_BeeMove : MonoBehaviour {
     public float flyForce;
     public float frontFlyForce;
     public AudioClip canudo;
+    public GameObject centerCamera;
     private AudioSource ad;
 
 
@@ -24,19 +25,30 @@ public class VR30_BeeMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.Space))
+
+//#if UNITY_EDITOR
+        //if (Input.GetKey(KeyCode.Space))
+        //{
+           // rb.AddForce(centerCamera.transform.up * flyForce);
+           // rb.AddForce(centerCamera.transform.forward * frontFlyForce);
+        //}
+
+
+        //y = Input.GetAxis("Mouse X");
+        //x = Input.GetAxis("Mouse Y");
+        //rotateValue = new Vector3(x, y * -1, 0);
+        //transform.eulerAngles = transform.eulerAngles - rotateValue;
+
+        //#elif UNITY_ANDROID
+
+        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
-            rb.AddForce(transform.up * flyForce);
-            rb.AddForce(transform.forward * frontFlyForce);
+            rb.AddForce(new Vector3(0f, 1f, 0f) * flyForce);
+            //ad.PlayOneShot(canudo);
+            rb.AddForce(centerCamera.transform.up * flyForce);
+            rb.AddForce(centerCamera.transform.forward * frontFlyForce);
         }
-
-
-        y = Input.GetAxis("Mouse X");
-        x = Input.GetAxis("Mouse Y");
-        rotateValue = new Vector3(x, y * -1, 0);
-        transform.eulerAngles = transform.eulerAngles - rotateValue;
-
-
+//#endif
     }
 
     public void canudoPlay()
