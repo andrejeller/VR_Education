@@ -14,7 +14,9 @@ public class VRInput {
 		return OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
 	}
 
-
+	public static Vector2 Axes() {
+		return OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
+	}
 
 
 
@@ -25,6 +27,13 @@ public class VRInput {
 	}
 
 	public static bool aBotaoTesteUp() {
-		return Input.GetKeyDown(KeyCode.A);
+		return Input.GetKeyUp(KeyCode.A);
+	}
+	public static bool sBotaoTesteDown() {
+		return Input.GetKeyDown(KeyCode.S);
+	}
+
+	public static bool sBotaoTesteUp() {
+		return Input.GetKeyUp(KeyCode.S);
 	}
 }

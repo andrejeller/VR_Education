@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class VR09_AddWord : MonoBehaviour {
-
+	
 	public VR09_XMLManager manager;
 
+	/*
 	public void AddWord(string text, int length) {
 
 		manager.LoadWords();
@@ -15,6 +16,6 @@ public class VR09_AddWord : MonoBehaviour {
 
 		manager.XMLWords.words.Add(nova);
 		manager.Save();
-	}
+	}*/
 
 }

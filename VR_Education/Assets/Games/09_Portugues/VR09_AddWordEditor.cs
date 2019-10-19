@@ -30,7 +30,7 @@ public class VR09_AddWordEditor:Editor {
 		GUILayout.Space(5);
 
 		if (GUILayout.Button("Add to XML")) {
-			myScript.AddWord(newWord, newWord.Length);
+			//myScript.AddWord(newWord, newWord.Length);
 		}
 	}
 }
