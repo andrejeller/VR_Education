@@ -19,6 +19,7 @@ public class VR29_RotatePlanet : MonoBehaviour
     public GameObject referenceEmpty;
     public GameObject actualCreatedObj;
 
+    private Vector3 lastCursorPosition;
     void Start()
     {
         planetRotation = transform.rotation;
@@ -34,7 +35,6 @@ public class VR29_RotatePlanet : MonoBehaviour
 
         if (Physics.Raycast(playerHand.transform.position, playerHand.transform.TransformDirection(Vector3.forward), out hito))
         {
-            Debug.Log("WTFFFFFFFFFFF");
             _ln.useWorldSpace = true;
             _ln.SetPosition(0, playerHand.transform.position);
             _ln.SetPosition(1, hito.point);
@@ -74,6 +74,8 @@ public class VR29_RotatePlanet : MonoBehaviour
             if (actualCreatedObj != null)
             {
                 float xMove = Input.GetAxis("Mouse X");
+                //float yMove = lastCursorPosition.x - (playerHand.transform.position + (playerHand.transform.forward * 10)).x;
+
 
                 float rotateSensitivity = Mathf.Min(2f, (float)((dist - targetRadius) / targetRadius) * 1.2f);
                 planetRotation *= Quaternion.AngleAxis(rotateSensitivity * -xMove, Vector3.up);
@@ -125,7 +127,9 @@ public class VR29_RotatePlanet : MonoBehaviour
 
             if (actualCreatedObj != null)
             {
-                float xMove = Input.GetAxis("Mouse X");
+                float xMove = -lastCursorPosition.x + (playerHand.transform.position + (playerHand.transform.forward * 100)).x;
+
+                
 
                 float rotateSensitivity = Mathf.Min(2f, (float)((dist - targetRadius) / targetRadius) * 1.2f);
                 planetRotation *= Quaternion.AngleAxis(rotateSensitivity * -xMove, Vector3.up);
@@ -174,13 +178,13 @@ public class VR29_RotatePlanet : MonoBehaviour
 
 
 
-
         transform.rotation = planetRotation;
         var a = transform.localRotation.eulerAngles.y - 180f;
         
         dayTime = Mathf.Floor(a/ divisionScale);
-        Debug.Log("angulo y raw = "+ transform.localRotation.eulerAngles.y +" calculo do a= "+ a+ " calculo do daytime= "+dayTime);
         if (dayTime == -12f) dayTime = 12f;
         textTime.text = ("Fuso Horario atual: "+dayTime+" UTC.");
+
+        lastCursorPosition = playerHand.transform.position + (playerHand.transform.forward * 100);
     }
 }
